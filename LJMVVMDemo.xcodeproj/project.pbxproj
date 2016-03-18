@@ -23,6 +23,7 @@
 		546E453F1C9C3D8D0079EF38 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E452C1C9C3D8D0079EF38 /* UIProgressView+AFNetworking.m */; };
 		546E45401C9C3D8D0079EF38 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E452E1C9C3D8D0079EF38 /* UIRefreshControl+AFNetworking.m */; };
 		546E45411C9C3D8D0079EF38 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E45301C9C3D8D0079EF38 /* UIWebView+AFNetworking.m */; };
+		546E45931C9C54100079EF38 /* LJString.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E45921C9C54100079EF38 /* LJString.m */; };
 		96C29330628BE03AEAB24306 /* libPods-LJMVVMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F07ADD223D3EDDFE8C1714B9 /* libPods-LJMVVMDemo.a */; };
 		B02A035F1C9AAEBD00721D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A035E1C9AAEBD00721D03 /* main.m */; };
 		B02A03621C9AAEBD00721D03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A03611C9AAEBD00721D03 /* AppDelegate.m */; };
@@ -91,6 +92,8 @@
 		546E452E1C9C3D8D0079EF38 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		546E452F1C9C3D8D0079EF38 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		546E45301C9C3D8D0079EF38 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		546E45911C9C54100079EF38 /* LJString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJString.h; sourceTree = "<group>"; };
+		546E45921C9C54100079EF38 /* LJString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJString.m; sourceTree = "<group>"; };
 		8BA568F2CB908F4BE1F101F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035A1C9AAEBD00721D03 /* LJMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035E1C9AAEBD00721D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -322,6 +325,8 @@
 		B02A037C1C9AAF6E00721D03 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				546E45911C9C54100079EF38 /* LJString.h */,
+				546E45921C9C54100079EF38 /* LJString.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -569,6 +574,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546E45931C9C54100079EF38 /* LJString.m in Sources */,
 				B0FBB3C21C9C0E8F0070413E /* OneCell.m in Sources */,
 				546E453E1C9C3D8D0079EF38 /* UIImageView+AFNetworking.m in Sources */,
 				546E45401C9C3D8D0079EF38 /* UIRefreshControl+AFNetworking.m in Sources */,
