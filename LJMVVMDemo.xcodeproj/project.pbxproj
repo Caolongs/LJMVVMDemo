@@ -24,6 +24,12 @@
 		546E45401C9C3D8D0079EF38 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E452E1C9C3D8D0079EF38 /* UIRefreshControl+AFNetworking.m */; };
 		546E45411C9C3D8D0079EF38 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E45301C9C3D8D0079EF38 /* UIWebView+AFNetworking.m */; };
 		546E45931C9C54100079EF38 /* LJString.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E45921C9C54100079EF38 /* LJString.m */; };
+		54FA55C81C9D7F5500E5091D /* thumbnail_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54FA55BE1C9D7F5500E5091D /* thumbnail_normal@2x.png */; };
+		54FA55C91C9D7F5500E5091D /* thumbnail_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54FA55BF1C9D7F5500E5091D /* thumbnail_selected@2x.png */; };
+		54FA55CA1C9D7F5500E5091D /* XHTwitterPaggingViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FA55C21C9D7F5500E5091D /* XHTwitterPaggingViewer.m */; };
+		54FA55CB1C9D7F5500E5091D /* XHPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FA55C51C9D7F5500E5091D /* XHPageControl.m */; };
+		54FA55CC1C9D7F5500E5091D /* XHPaggingNavbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FA55C71C9D7F5500E5091D /* XHPaggingNavbar.m */; };
+		54FA562D1C9D8DB900E5091D /* LJHeaderSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FA562C1C9D8DB900E5091D /* LJHeaderSectionView.m */; };
 		96C29330628BE03AEAB24306 /* libPods-LJMVVMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F07ADD223D3EDDFE8C1714B9 /* libPods-LJMVVMDemo.a */; };
 		B02A035F1C9AAEBD00721D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A035E1C9AAEBD00721D03 /* main.m */; };
 		B02A03621C9AAEBD00721D03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A03611C9AAEBD00721D03 /* AppDelegate.m */; };
@@ -32,6 +38,10 @@
 		B02A036D1C9AAEBD00721D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02A036C1C9AAEBD00721D03 /* Assets.xcassets */; };
 		B02A03701C9AAEBD00721D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A036E1C9AAEBD00721D03 /* LaunchScreen.storyboard */; };
 		B02A03811C9AB24900721D03 /* NetRequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A03801C9AB24900721D03 /* NetRequestClass.m */; };
+		B07E561E1CA0F25D00F85B7A /* HorizonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07E56191CA0F25D00F85B7A /* HorizonalTableViewController.m */; };
+		B07E561F1CA0F25D00F85B7A /* SwipableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07E561B1CA0F25D00F85B7A /* SwipableViewController.m */; };
+		B07E56201CA0F25D00F85B7A /* TitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B07E561D1CA0F25D00F85B7A /* TitleBarView.m */; };
+		B07E56671CA0F5CA00F85B7A /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = B07E56661CA0F5CA00F85B7A /* UIColor+Util.m */; };
 		B0FBB3801C9BC9880070413E /* HYBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBB37F1C9BC9880070413E /* HYBNetworking.m */; };
 		B0FBB3871C9BD59A0070413E /* LJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBB3861C9BD59A0070413E /* LJTabBarController.m */; };
 		B0FBB38B1C9BDC830070413E /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBB38A1C9BDC830070413E /* ViewControllerOne.m */; };
@@ -94,6 +104,17 @@
 		546E45301C9C3D8D0079EF38 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		546E45911C9C54100079EF38 /* LJString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJString.h; sourceTree = "<group>"; };
 		546E45921C9C54100079EF38 /* LJString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJString.m; sourceTree = "<group>"; };
+		54FA55BE1C9D7F5500E5091D /* thumbnail_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail_normal@2x.png"; sourceTree = "<group>"; };
+		54FA55BF1C9D7F5500E5091D /* thumbnail_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail_selected@2x.png"; sourceTree = "<group>"; };
+		54FA55C11C9D7F5500E5091D /* XHTwitterPaggingViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTwitterPaggingViewer.h; sourceTree = "<group>"; };
+		54FA55C21C9D7F5500E5091D /* XHTwitterPaggingViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTwitterPaggingViewer.m; sourceTree = "<group>"; };
+		54FA55C41C9D7F5500E5091D /* XHPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPageControl.h; sourceTree = "<group>"; };
+		54FA55C51C9D7F5500E5091D /* XHPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPageControl.m; sourceTree = "<group>"; };
+		54FA55C61C9D7F5500E5091D /* XHPaggingNavbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPaggingNavbar.h; sourceTree = "<group>"; };
+		54FA55C71C9D7F5500E5091D /* XHPaggingNavbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPaggingNavbar.m; sourceTree = "<group>"; };
+		54FA562B1C9D8DB900E5091D /* LJHeaderSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJHeaderSectionView.h; sourceTree = "<group>"; };
+		54FA562C1C9D8DB900E5091D /* LJHeaderSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJHeaderSectionView.m; sourceTree = "<group>"; };
+		54FA562E1C9D8F7D00E5091D /* LJMVVMDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LJMVVMDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		8BA568F2CB908F4BE1F101F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035A1C9AAEBD00721D03 /* LJMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035E1C9AAEBD00721D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +129,14 @@
 		B02A03801C9AB24900721D03 /* NetRequestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestClass.m; sourceTree = "<group>"; };
 		B02A03821C9AB3E700721D03 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		B02A03831C9AB5BA00721D03 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B07E56181CA0F25D00F85B7A /* HorizonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonalTableViewController.h; sourceTree = "<group>"; };
+		B07E56191CA0F25D00F85B7A /* HorizonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonalTableViewController.m; sourceTree = "<group>"; };
+		B07E561A1CA0F25D00F85B7A /* SwipableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipableViewController.h; sourceTree = "<group>"; };
+		B07E561B1CA0F25D00F85B7A /* SwipableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipableViewController.m; sourceTree = "<group>"; };
+		B07E561C1CA0F25D00F85B7A /* TitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleBarView.h; sourceTree = "<group>"; };
+		B07E561D1CA0F25D00F85B7A /* TitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleBarView.m; sourceTree = "<group>"; };
+		B07E56651CA0F5CA00F85B7A /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		B07E56661CA0F5CA00F85B7A /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
 		B0FBB37E1C9BC9880070413E /* HYBNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBNetworking.h; sourceTree = "<group>"; };
 		B0FBB37F1C9BC9880070413E /* HYBNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBNetworking.m; sourceTree = "<group>"; };
 		B0FBB3851C9BD59A0070413E /* LJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJTabBarController.h; path = ../ViewControllers/LJTabBarController.h; sourceTree = "<group>"; };
@@ -233,6 +262,54 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		54FA55BC1C9D7F5500E5091D /* XHTwitterPaggingViewer */ = {
+			isa = PBXGroup;
+			children = (
+				54FA55BD1C9D7F5500E5091D /* Assets */,
+				54FA55C01C9D7F5500E5091D /* Controllers */,
+				54FA55C31C9D7F5500E5091D /* Views */,
+			);
+			path = XHTwitterPaggingViewer;
+			sourceTree = "<group>";
+		};
+		54FA55BD1C9D7F5500E5091D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				54FA55BE1C9D7F5500E5091D /* thumbnail_normal@2x.png */,
+				54FA55BF1C9D7F5500E5091D /* thumbnail_selected@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		54FA55C01C9D7F5500E5091D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				54FA55C11C9D7F5500E5091D /* XHTwitterPaggingViewer.h */,
+				54FA55C21C9D7F5500E5091D /* XHTwitterPaggingViewer.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		54FA55C31C9D7F5500E5091D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54FA55C41C9D7F5500E5091D /* XHPageControl.h */,
+				54FA55C51C9D7F5500E5091D /* XHPageControl.m */,
+				54FA55C61C9D7F5500E5091D /* XHPaggingNavbar.h */,
+				54FA55C71C9D7F5500E5091D /* XHPaggingNavbar.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54FA562A1C9D8DB900E5091D /* LJHeaderSectionView */ = {
+			isa = PBXGroup;
+			children = (
+				54FA562B1C9D8DB900E5091D /* LJHeaderSectionView.h */,
+				54FA562C1C9D8DB900E5091D /* LJHeaderSectionView.m */,
+			);
+			path = LJHeaderSectionView;
+			sourceTree = "<group>";
+		};
 		B02A03511C9AAEBD00721D03 = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +366,11 @@
 		B02A03781C9AAF6E00721D03 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				B07E56651CA0F5CA00F85B7A /* UIColor+Util.h */,
+				B07E56661CA0F5CA00F85B7A /* UIColor+Util.m */,
+				B07E56171CA0F25D00F85B7A /* SwipableViewController */,
+				54FA562A1C9D8DB900E5091D /* LJHeaderSectionView */,
+				54FA55BC1C9D7F5500E5091D /* XHTwitterPaggingViewer */,
 				546E450B1C9C3D8D0079EF38 /* AFNetworking */,
 				B0FBB37E1C9BC9880070413E /* HYBNetworking.h */,
 				B0FBB37F1C9BC9880070413E /* HYBNetworking.m */,
@@ -327,6 +409,7 @@
 			children = (
 				546E45911C9C54100079EF38 /* LJString.h */,
 				546E45921C9C54100079EF38 /* LJString.m */,
+				54FA562E1C9D8F7D00E5091D /* LJMVVMDemo-Bridging-Header.h */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -339,6 +422,19 @@
 				B0FBB3AF1C9BE86E0070413E /* ViewModeClass.m */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B07E56171CA0F25D00F85B7A /* SwipableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B07E56181CA0F25D00F85B7A /* HorizonalTableViewController.h */,
+				B07E56191CA0F25D00F85B7A /* HorizonalTableViewController.m */,
+				B07E561A1CA0F25D00F85B7A /* SwipableViewController.h */,
+				B07E561B1CA0F25D00F85B7A /* SwipableViewController.m */,
+				B07E561C1CA0F25D00F85B7A /* TitleBarView.h */,
+				B07E561D1CA0F25D00F85B7A /* TitleBarView.m */,
+			);
+			path = SwipableViewController;
 			sourceTree = "<group>";
 		};
 		B0FBB3841C9BD57A0070413E /* ViewControllers */ = {
@@ -506,6 +602,7 @@
 			files = (
 				B0FBB3A91C9BE45F0070413E /* tabbar_mine_normal@2x.png in Resources */,
 				B0FBB3A71C9BE45F0070413E /* tabbar_like_normal@2x.png in Resources */,
+				54FA55C81C9D7F5500E5091D /* thumbnail_normal@2x.png in Resources */,
 				B0FBB3A81C9BE45F0070413E /* tabbar_mine_hightlight@2x.png in Resources */,
 				B0FBB3A31C9BE45F0070413E /* tabbar_cookbook_normal@2x.png in Resources */,
 				B02A03701C9AAEBD00721D03 /* LaunchScreen.storyboard in Resources */,
@@ -515,6 +612,7 @@
 				B0FBB3A61C9BE45F0070413E /* tabbar_like_hightlight@2x.png in Resources */,
 				B02A03681C9AAEBD00721D03 /* Main.storyboard in Resources */,
 				B0FBB3C31C9C0E8F0070413E /* OneCell.xib in Resources */,
+				54FA55C91C9D7F5500E5091D /* thumbnail_selected@2x.png in Resources */,
 				B0FBB3A51C9BE45F0070413E /* tabbar_lesson_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,11 +672,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07E561F1CA0F25D00F85B7A /* SwipableViewController.m in Sources */,
 				546E45931C9C54100079EF38 /* LJString.m in Sources */,
 				B0FBB3C21C9C0E8F0070413E /* OneCell.m in Sources */,
 				546E453E1C9C3D8D0079EF38 /* UIImageView+AFNetworking.m in Sources */,
 				546E45401C9C3D8D0079EF38 /* UIRefreshControl+AFNetworking.m in Sources */,
 				B0FBB3B01C9BE86E0070413E /* ViewModeClass.m in Sources */,
+				54FA55CA1C9D7F5500E5091D /* XHTwitterPaggingViewer.m in Sources */,
 				B0FBB38E1C9BDC900070413E /* ViewControllerTwo.m in Sources */,
 				546E45411C9C3D8D0079EF38 /* UIWebView+AFNetworking.m in Sources */,
 				546E453A1C9C3D8D0079EF38 /* AFImageDownloader.m in Sources */,
@@ -595,17 +695,23 @@
 				B02A03811C9AB24900721D03 /* NetRequestClass.m in Sources */,
 				B0FBB3911C9BDC990070413E /* ViewControllerThree.m in Sources */,
 				B0FBB3971C9BE0900070413E /* LJNavigationController.m in Sources */,
+				54FA55CB1C9D7F5500E5091D /* XHPageControl.m in Sources */,
+				54FA55CC1C9D7F5500E5091D /* XHPaggingNavbar.m in Sources */,
 				B0FBB3B71C9BEC9C0070413E /* OneModel.m in Sources */,
 				B0FBB3B41C9BEBDE0070413E /* ViewModeOne.m in Sources */,
+				B07E56201CA0F25D00F85B7A /* TitleBarView.m in Sources */,
 				546E45341C9C3D8D0079EF38 /* AFURLRequestSerialization.m in Sources */,
 				B0FBB3801C9BC9880070413E /* HYBNetworking.m in Sources */,
+				B07E56671CA0F5CA00F85B7A /* UIColor+Util.m in Sources */,
 				B0FBB3BB1C9BF77C0070413E /* NSObject+Model.m in Sources */,
 				B0FBB3941C9BDCA40070413E /* ViewControllerFour.m in Sources */,
 				B02A03621C9AAEBD00721D03 /* AppDelegate.m in Sources */,
 				546E45331C9C3D8D0079EF38 /* AFSecurityPolicy.m in Sources */,
 				B02A035F1C9AAEBD00721D03 /* main.m in Sources */,
 				B0FBB3871C9BD59A0070413E /* LJTabBarController.m in Sources */,
+				B07E561E1CA0F25D00F85B7A /* HorizonalTableViewController.m in Sources */,
 				B0FBB38B1C9BDC830070413E /* ViewControllerOne.m in Sources */,
+				54FA562D1C9D8DB900E5091D /* LJHeaderSectionView.m in Sources */,
 				546E45361C9C3D8D0079EF38 /* AFURLSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -719,11 +825,14 @@
 			baseConfigurationReference = 11859FFDA9FAB6BFA7B55F41 /* Pods-LJMVVMDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = LJMVVMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Caolongs.LJMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LJMVVMDemo/Tools/LJMVVMDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -732,11 +841,13 @@
 			baseConfigurationReference = 53685AC9BA1CC69C9222591A /* Pods-LJMVVMDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = LJMVVMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Caolongs.LJMVVMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LJMVVMDemo/Tools/LJMVVMDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};

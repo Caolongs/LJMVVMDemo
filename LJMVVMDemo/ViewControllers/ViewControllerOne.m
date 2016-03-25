@@ -21,10 +21,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.navigationController.navigationBar.translucent = NO;
-//    self.navigationController.navigationBar.opaque = NO;
-//    self.automaticallyAdjustsScrollViewInsets = YES;
+    self.automaticallyAdjustsScrollViewInsets = NO;//默认YES
+//    self.navigationController.navigationBar.translucent = YES;
+//    self.navigationController.navigationBar.opaque = YES;
 //    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
+    self.view.backgroundColor = [UIColor yellowColor];
 
     self.viewModel = [[ViewModeOne alloc] init];
     _viewModel.delegate = self;
@@ -51,7 +53,7 @@
 - (void)successGetModelArray:(NSArray *)modelArray{
     
     self.contentView.OneArray = modelArray;
-    NSLog(@"---%@",modelArray);
+    //NSLog(@"---%@",modelArray);
 }
 
 

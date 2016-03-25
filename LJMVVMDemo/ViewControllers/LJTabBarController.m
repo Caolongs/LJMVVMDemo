@@ -13,6 +13,10 @@
 #import "ViewControllerFour.h"
 #import "LJNavigationController.h"
 
+#import "XHTwitterPaggingViewer.h"
+#import "SwipableViewController.h"
+
+
 @interface LJTabBarController ()
 
 @end
@@ -24,14 +28,42 @@
     ViewControllerOne *one = [[ViewControllerOne alloc] init];
     [self setItemWithController:one title:@"One" imageName:@"tabbar_cookbook_normal" selectedImageName:@"tabbar_cookbook_hightlight"];
     
-    ViewControllerTwo *two = [[ViewControllerTwo alloc] init];
-    [self setItemWithController:two title:@"Two" imageName:@"tabbar_like_normal" selectedImageName:@"tabbar_like_hightlight"];
+    ViewControllerOne *one1 = [[ViewControllerOne alloc] init];
     
-    ViewControllerThree *three = [[ViewControllerThree alloc] init];
+    
+    
+    ViewControllerThree *three1 = [[ViewControllerThree alloc] init];
+    three1.view.backgroundColor = [UIColor yellowColor];
+    UITableViewController *three2 = [[UITableViewController alloc] init];
+    three2.view.backgroundColor = [UIColor redColor];
+    
+    SwipableViewController *three = [[SwipableViewController alloc] initWithTitle:@"综合"
+                                                                       andSubTitles:@[@"资讯", @"热点", @"博客", @"推荐"]
+                                                                     andControllers:@[one1, three2, three1,three2]
+                                                                        underTabbar:YES];
+    
     [self setItemWithController:three title:@"Three" imageName:@"tabbar_lesson_normal" selectedImageName:@"tabbar_lesson_hightlight"];
     
     ViewControllerFour *four = [[ViewControllerFour alloc] init];
     [self setItemWithController:four title:@"Four" imageName:@"tabbar_mine_normal" selectedImageName:@"tabbar_mine_hightlight"];
+    
+    
+    //滚动头部
+    XHTwitterPaggingViewer *two = [[XHTwitterPaggingViewer alloc] init];
+    NSMutableArray *viewControllers = [[NSMutableArray alloc] initWithCapacity:7];
+    NSArray *titles = @[@"最新", @"最热", @"段子", @"图片", @"GIF"];
+    [titles enumerateObjectsUsingBlock:^(NSString *title, NSUInteger idx, BOOL *stop) {
+        UIViewController *tableViewController = [[UIViewController alloc] init];
+        tableViewController.title = title;
+        [viewControllers addObject:tableViewController];
+    }];
+    
+    two.viewControllers = viewControllers;
+    two.didChangedPageCompleted = ^(NSInteger cuurentPage, NSString *title) {
+        NSLog(@"cuurentPage : %ld on title : %@", (long)cuurentPage, title);
+    };
+    
+    [self setItemWithController:two title:@"Two" imageName:@"tabbar_like_normal" selectedImageName:@"tabbar_like_hightlight"];
     
     
 }

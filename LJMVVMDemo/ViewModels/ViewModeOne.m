@@ -14,7 +14,7 @@
 - (void)fetchOneData{
     //通常放在appdelegate
     [HYBNetworking updateBaseUrl:@"http://www.vlbuilding.com"];
-    [HYBNetworking enableInterfaceDebug:YES];
+    [HYBNetworking enableInterfaceDebug:NO];
     
     NSString *url = @"/ajax/mobile/searchCategroyContentList.json";
     NSDictionary *params = @{@"pageNum" : @(0),

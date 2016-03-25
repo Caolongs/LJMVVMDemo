@@ -20,8 +20,9 @@
 
 - (UITableView *)tableView{
     if (_tableView == nil) {
-        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height-44)];
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, self.frame.size.width, self.frame.size.height-64-64)];
         //_tableView = [[UITableView alloc] initWithFrame:self.bounds];
+        _tableView.backgroundColor = [UIColor greenColor];
         _tableView.delegate = self;
         _tableView.dataSource = self;
         [self addSubview:_tableView];
@@ -63,7 +64,7 @@
     
     self.frame = newSuperview.frame;
 
-    self.tableView.contentInset = UIEdgeInsetsMake(64, 0, 0, -69);
+//    self.tableView.contentInset = UIEdgeInsetsMake(64, 0, 0, -69);
     //self.tableView.backgroundColor = [UIColor yellowColor];
 }
 
