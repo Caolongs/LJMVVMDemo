@@ -10,9 +10,9 @@
 
 @implementation NSObject (Model)
 
-//+ (id)objectWithDict:(NSDictionary *)dict{
-//    return [[self alloc] initWithDict:dict];
-//}
++ (id)objectWithDict:(NSDictionary *)dict{
+    return [[self alloc] initWithDict:dict];
+}
 
 - (id)initWithDict:(NSDictionary *)dict{
     if (self = [self init]) {

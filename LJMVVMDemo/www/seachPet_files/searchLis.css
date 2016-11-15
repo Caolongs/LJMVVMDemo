@@ -1,0 +1,121 @@
+
+/* .header .search{
+	width: 5.16rem;
+}
+.search img{
+	margin-top: 0.12rem;
+	margin-left: .48rem;
+	width: 0.26rem;
+	float: left;
+	
+}
+.seabtn{
+	height: 0.56rem;
+	line-height: 0.56rem;
+	float: left;
+	width: 0.98rem;
+	text-align: center;
+	margin-top: 0.14rem;
+}
+.cancel{
+	font-size: 0.3rem;
+	width: 0.6rem;
+	height: 0.78rem;
+	float: right;
+	line-height: 0.9rem;
+	
+} */
+.petLis{
+	width: 100%;
+	display: none;
+}
+.petLis.act{
+	display: block;
+}
+.petLis ul{
+	float: left;
+	width: 2.5rem;
+	background: #fff;
+}
+.petLis li{
+	width:2.5rem;
+	height: 2.9rem;	
+	padding-top: 0.39rem;
+	text-align: center;
+	box-sizing: border-box;
+	border-bottom: 1px solid #F6F6F6;
+	border-right: 1px solid #F6F6F6;
+}
+.petLis ul:last-child li{
+	border-right: 0;
+}
+.petLis img{
+	width: 1.5rem;
+	margin-left: 0.49rem;
+	margin-bottom: 0.125rem;
+}
+.toast{
+	width: 3rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	border-radius: 6px;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 5rem;
+	left: 50%;
+	margin-left: -1.5rem;
+	color: #fff;
+	display: none;
+}
+
+.search .searchLeft{
+	float: left;
+	width: 1.44rem;
+	height: .4rem;
+	padding-top: .08rem;
+	position: relative;
+}
+.search .searchLeft p{
+	width: 100%;
+	height: .4rem;
+	line-height: .4rem;
+	font-size: .28rem;
+	border-right: 1px solid #D5D5DB;
+	text-align: center;
+	background: url(../img/img/select.png) no-repeat 1.15rem center;
+	background-size: .12rem .1rem;
+}
+.search .searchLeft ul{
+	width: 1.44rem;
+	height: 2.82rem;
+	background: url(../img/img/slecetBox.png) no-repeat left center;
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	-webkit-opacity: 0.8;
+	background-size: contain;
+	padding-top: .4rem;
+	display: none;
+}
+.search .searchLeft ul li{
+	width: 100%;
+	height: .85rem;
+	line-height: .85rem;
+	text-align: center;
+	font-size: .28rem;
+	color: white;
+}
+.search input{
+	margin-left: .1rem;
+	width: 4.4rem;
+	height: .4rem;
+	line-height: .4rem;
+	font-size: .28rem;
+}
+
+footer li:nth-child(2) span{
+	color: #FFAD75;
+}	
+footer li:nth-child(2) i{
+	background-image: url(../img/img/orderN.png) !important;
+}

@@ -10,6 +10,6 @@
 
 @interface NSObject (Model)
 
-//+(id)objectWithDict:(NSDictionary *)dict;
++(id)objectWithDict:(NSDictionary *)dict;
 - (id)initWithDict:(NSDictionary *)dict;
 @end
