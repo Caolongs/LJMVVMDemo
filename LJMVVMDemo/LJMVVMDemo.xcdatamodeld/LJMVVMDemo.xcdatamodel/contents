@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="News" representedClassName="News" syncable="YES">
+        <attribute name="boardid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="digest" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="docid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgsrc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lmodify" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ltitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priority" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ptime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="replyCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="votecount" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="News" positionX="-63" positionY="-18" width="128" height="283"/>
+    </elements>
+</model>
