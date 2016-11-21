@@ -64,6 +64,7 @@
 		5497ADE71D6037AB00DABA4F /* LJCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5497ADE61D6037AB00DABA4F /* LJCustomTabBarController.m */; };
 		5497ADEA1D604F6300DABA4F /* tabbar_compose_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5497ADE81D604F6300DABA4F /* tabbar_compose_button@2x.png */; };
 		5497ADEB1D604F6300DABA4F /* tabbar_compose_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5497ADE91D604F6300DABA4F /* tabbar_compose_button@3x.png */; };
+		5499A5F11DDF3F2600AD768E /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5499A5F01DDF3F2600AD768E /* QRCodeViewController.m */; };
 		549A78A21D48E1960076F545 /* UIColor+LJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 549A78A11D48E1960076F545 /* UIColor+LJ.m */; };
 		54A57A681DB0DD0E00D80FDE /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A57A671DB0DD0E00D80FDE /* IJKMediaFramework.framework */; };
 		54B283451D5DF77100CBD2EE /* LJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B283441D5DF77100CBD2EE /* LJWebViewController.m */; };
@@ -225,6 +226,8 @@
 		5497ADE61D6037AB00DABA4F /* LJCustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJCustomTabBarController.m; sourceTree = "<group>"; };
 		5497ADE81D604F6300DABA4F /* tabbar_compose_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_button@2x.png"; sourceTree = "<group>"; };
 		5497ADE91D604F6300DABA4F /* tabbar_compose_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_button@3x.png"; sourceTree = "<group>"; };
+		5499A5EF1DDF3F2600AD768E /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		5499A5F01DDF3F2600AD768E /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
 		549A78A01D48E1960076F545 /* UIColor+LJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LJ.h"; sourceTree = "<group>"; };
 		549A78A11D48E1960076F545 /* UIColor+LJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LJ.m"; sourceTree = "<group>"; };
 		54A57A671DB0DD0E00D80FDE /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
@@ -446,6 +449,8 @@
 				540498691DA93F6A00485B94 /* WebViewWK_VC.m */,
 				542AE6E91DDB5D9200E3CAC2 /* ContactsViewController.h */,
 				542AE6EA1DDB5D9200E3CAC2 /* ContactsViewController.m */,
+				5499A5EF1DDF3F2600AD768E /* QRCodeViewController.h */,
+				5499A5F01DDF3F2600AD768E /* QRCodeViewController.m */,
 			);
 			path = ThreeViewControllers;
 			sourceTree = "<group>";
@@ -1064,6 +1069,7 @@
 				540EADA61D5835410071CE2D /* ViewModeOne2.m in Sources */,
 				545F065B1DB4F9A80036A890 /* UIImage+exchangeImp.m in Sources */,
 				540EADA51D5835410071CE2D /* ViewModeOne.m in Sources */,
+				5499A5F11DDF3F2600AD768E /* QRCodeViewController.m in Sources */,
 				540EADD31D58389F0071CE2D /* LJTabBarController.m in Sources */,
 				5400FA281D9E3053008273D8 /* UIImage+LJ.m in Sources */,
 				54FA55CB1C9D7F5500E5091D /* XHPageControl.m in Sources */,
