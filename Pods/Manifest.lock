@@ -23,6 +23,7 @@ PODS:
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
   - SVProgressHUD (2.0.3)
+  - UMengAnalytics (4.1.4)
   - VTMagic (1.2.3):
     - VTMagic/Core (= 1.2.3)
   - VTMagic/Core (1.2.3)
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.8)
   - SDWebImage (~> 3.8.1)
   - SVProgressHUD (~> 2.0.3)
+  - UMengAnalytics
   - VTMagic
 
 SPEC CHECKSUMS:
@@ -47,8 +49,9 @@ SPEC CHECKSUMS:
   MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  UMengAnalytics: 0bde5737767dfc18afb03a4cd6ba9d57bb2ad10d
   VTMagic: c69c1dd7481e0f3f4c0b2a6f27803dde55455c96
 
-PODFILE CHECKSUM: c1a27ce526559378c9d9502afe78ce993c0bd553
+PODFILE CHECKSUM: 76f72a7ba7b100b66c6c4b62aa7909c5193299e3
 
 COCOAPODS: 1.1.1
