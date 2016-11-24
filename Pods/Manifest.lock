@@ -19,9 +19,9 @@ PODS:
   - Masonry (1.0.1)
   - MJExtension (3.0.11)
   - MJRefresh (3.1.10)
-  - SDWebImage (3.8.1):
-    - SDWebImage/Core (= 3.8.1)
-  - SDWebImage/Core (3.8.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
   - SVProgressHUD (2.0.3)
   - VTMagic (1.2.3):
     - VTMagic/Core (= 1.2.3)
@@ -45,10 +45,10 @@ SPEC CHECKSUMS:
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MJExtension: f9ae6ddc0f1c482c3c9af750280ccebd14381958
   MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
-  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   VTMagic: c69c1dd7481e0f3f4c0b2a6f27803dde55455c96
 
 PODFILE CHECKSUM: c1a27ce526559378c9d9502afe78ce993c0bd553
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1
