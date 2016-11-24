@@ -12,6 +12,7 @@
 #import "LJUISearchBarVC.h"
 #import "WebViewWK_VC.h"
 #import "ContactsViewController.h"
+#import "QRCodeViewController.h"
 
 
 @interface ViewControllerThree () <UITableViewDataSource,UITableViewDelegate>
@@ -75,6 +76,10 @@
         [self.navigationController pushViewController:contactVC animated:YES];
         
     }else if (indexPath.row == 3){
+        QRCodeViewController *vc = [[QRCodeViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }else{
         WebViewWK_VC *searchVC = [[WebViewWK_VC alloc] init];
         [self.navigationController pushViewController:searchVC animated:YES];
     }
@@ -84,7 +89,7 @@
 
 - (NSArray *)dataArray{
     if (_dataArray==nil) {
-        _dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"ContactsDemo",@"测试四"];
+        _dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"ContactsDemo",@"二维码",@"测试四"];
         //,@"测试三",@"测试四",@"测试三",@"测试四",@"测试三",@"测试四",@"测试三",@"测试四",@"测试三",@"测试四",@"测试三",@"测试四",@"测试三",@"测试四"
     }
     return _dataArray;
