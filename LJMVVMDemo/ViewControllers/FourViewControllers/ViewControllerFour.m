@@ -19,6 +19,7 @@
 @property(nonatomic, strong) UIImageView *zoomImageView;
 @property(nonatomic, strong) UISwitch *nightSwitch;
 
+
 @end
 
 @implementation ViewControllerFour
