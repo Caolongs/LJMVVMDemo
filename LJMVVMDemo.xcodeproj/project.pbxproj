@@ -109,6 +109,12 @@
 		B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A03691C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld */; };
 		B02A03701C9AAEBD00721D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A036E1C9AAEBD00721D03 /* LaunchScreen.storyboard */; };
 		B02A03811C9AB24900721D03 /* NetRequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A03801C9AB24900721D03 /* NetRequestClass.m */; };
+		B0FA1D8C1DE9632000B9BC7A /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D8B1DE9632000B9BC7A /* NSDictionary+Safe.m */; };
+		B0FA1D8F1DE963A200B9BC7A /* SafeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D8E1DE963A200B9BC7A /* SafeTestViewController.m */; };
+		B0FA1D921DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D911DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m */; };
+		B0FA1D951DE97D7F00B9BC7A /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D941DE97D7F00B9BC7A /* NSArray+Safe.m */; };
+		B0FA1D981DE97E9300B9BC7A /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D971DE97E9300B9BC7A /* NSMutableArray+Safe.m */; };
+		B0FA1D9B1DE9894700B9BC7A /* NSNull+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D9A1DE9894700B9BC7A /* NSNull+Safe.m */; };
 		B0FBB3801C9BC9880070413E /* HYBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBB37F1C9BC9880070413E /* HYBNetworking.m */; };
 		B0FBB3A21C9BE45F0070413E /* tabbar_cookbook_hightlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FBB39A1C9BE45F0070413E /* tabbar_cookbook_hightlight@2x.png */; };
 		B0FBB3A31C9BE45F0070413E /* tabbar_cookbook_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FBB39B1C9BE45F0070413E /* tabbar_cookbook_normal@2x.png */; };
@@ -298,6 +304,18 @@
 		B02A03801C9AB24900721D03 /* NetRequestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestClass.m; sourceTree = "<group>"; };
 		B02A03821C9AB3E700721D03 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		B02A03831C9AB5BA00721D03 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B0FA1D8A1DE9632000B9BC7A /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		B0FA1D8B1DE9632000B9BC7A /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		B0FA1D8D1DE963A200B9BC7A /* SafeTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeTestViewController.h; sourceTree = "<group>"; };
+		B0FA1D8E1DE963A200B9BC7A /* SafeTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeTestViewController.m; sourceTree = "<group>"; };
+		B0FA1D901DE97BDD00B9BC7A /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		B0FA1D911DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		B0FA1D931DE97D7F00B9BC7A /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		B0FA1D941DE97D7F00B9BC7A /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		B0FA1D961DE97E9300B9BC7A /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		B0FA1D971DE97E9300B9BC7A /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		B0FA1D991DE9894700B9BC7A /* NSNull+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Safe.h"; sourceTree = "<group>"; };
+		B0FA1D9A1DE9894700B9BC7A /* NSNull+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Safe.m"; sourceTree = "<group>"; };
 		B0FBB37E1C9BC9880070413E /* HYBNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBNetworking.h; sourceTree = "<group>"; };
 		B0FBB37F1C9BC9880070413E /* HYBNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBNetworking.m; sourceTree = "<group>"; };
 		B0FBB39A1C9BE45F0070413E /* tabbar_cookbook_hightlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_cookbook_hightlight@2x.png"; sourceTree = "<group>"; };
@@ -451,6 +469,8 @@
 				542AE6EA1DDB5D9200E3CAC2 /* ContactsViewController.m */,
 				5499A5EF1DDF3F2600AD768E /* QRCodeViewController.h */,
 				5499A5F01DDF3F2600AD768E /* QRCodeViewController.m */,
+				B0FA1D8D1DE963A200B9BC7A /* SafeTestViewController.h */,
+				B0FA1D8E1DE963A200B9BC7A /* SafeTestViewController.m */,
 			);
 			path = ThreeViewControllers;
 			sourceTree = "<group>";
@@ -856,6 +876,16 @@
 				5400FA271D9E3053008273D8 /* UIImage+LJ.m */,
 				545F06591DB4F9A80036A890 /* UIImage+exchangeImp.h */,
 				545F065A1DB4F9A80036A890 /* UIImage+exchangeImp.m */,
+				B0FA1D8A1DE9632000B9BC7A /* NSDictionary+Safe.h */,
+				B0FA1D8B1DE9632000B9BC7A /* NSDictionary+Safe.m */,
+				B0FA1D901DE97BDD00B9BC7A /* NSMutableDictionary+Safe.h */,
+				B0FA1D911DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m */,
+				B0FA1D931DE97D7F00B9BC7A /* NSArray+Safe.h */,
+				B0FA1D941DE97D7F00B9BC7A /* NSArray+Safe.m */,
+				B0FA1D961DE97E9300B9BC7A /* NSMutableArray+Safe.h */,
+				B0FA1D971DE97E9300B9BC7A /* NSMutableArray+Safe.m */,
+				B0FA1D991DE9894700B9BC7A /* NSNull+Safe.h */,
+				B0FA1D9A1DE9894700B9BC7A /* NSNull+Safe.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -914,6 +944,7 @@
 				TargetAttributes = {
 					B02A03591C9AAEBD00721D03 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9S959SBGCQ;
 					};
 				};
 			};
@@ -1001,7 +1032,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C418D9C5C13AF00778993219 /* [CP] Copy Pods Resources */ = {
@@ -1054,6 +1085,7 @@
 				54FB188E1D9D5E5C00A15DB4 /* OneLiveListCell.m in Sources */,
 				543EFDE31D7FFE4B000DD72D /* LJNetWorking.m in Sources */,
 				540EADC21D58375A0071CE2D /* OneCell.m in Sources */,
+				B0FA1D981DE97E9300B9BC7A /* NSMutableArray+Safe.m in Sources */,
 				B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */,
 				540EADBC1D5836F50071CE2D /* ViewControllerOne.m in Sources */,
 				541910BB1D36235000491D7F /* UITableViewCell+InitCell.m in Sources */,
@@ -1077,12 +1109,14 @@
 				5424EABA1D5B020400F2DC7C /* OneModel2.m in Sources */,
 				54113FFA1D50D03900040B66 /* LJBaseCell.m in Sources */,
 				5492BBEA1DA55582004BD23D /* GPUImageBeautifyFilter.m in Sources */,
+				B0FA1D8F1DE963A200B9BC7A /* SafeTestViewController.m in Sources */,
 				543EFDEB1D804BC1000DD72D /* LJGlobalUrl.m in Sources */,
 				54E46A851D59BD040009C2E2 /* ViewControllerThree1.m in Sources */,
 				540EADB91D5836F50071CE2D /* OneViewController2.m in Sources */,
 				5436DB3C1D9ACE4100A6954E /* LJCommenTitle.m in Sources */,
 				5497ADE71D6037AB00DABA4F /* LJCustomTabBarController.m in Sources */,
 				B0FBB3801C9BC9880070413E /* HYBNetworking.m in Sources */,
+				B0FA1D951DE97D7F00B9BC7A /* NSArray+Safe.m in Sources */,
 				5424EAB91D5B020400F2DC7C /* OneModel.m in Sources */,
 				540EADC41D58375A0071CE2D /* OneContentView.m in Sources */,
 				5400FA211D9E105E008273D8 /* ViewModelOneLivePlayer.m in Sources */,
@@ -1093,8 +1127,11 @@
 				54EFFCDF1DA516F5002B2FBF /* YZLiveItem.m in Sources */,
 				B0FBB3BB1C9BF77C0070413E /* NSObject+Model.m in Sources */,
 				B02A035F1C9AAEBD00721D03 /* main.m in Sources */,
+				B0FA1D921DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m in Sources */,
+				B0FA1D9B1DE9894700B9BC7A /* NSNull+Safe.m in Sources */,
 				54FA562D1C9D8DB900E5091D /* LJHeaderSectionView.m in Sources */,
 				54873C0B1D2FA51C008BE5BD /* AFAppNetSessionManager.m in Sources */,
+				B0FA1D8C1DE9632000B9BC7A /* NSDictionary+Safe.m in Sources */,
 				540EADD61D5838CE0071CE2D /* AppDelegate.m in Sources */,
 				54FB18871D9D41FA00A15DB4 /* LiveListModel.m in Sources */,
 			);
@@ -1216,7 +1253,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9S959SBGCQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LJMVVMDemo/Libs",
@@ -1241,7 +1278,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9S959SBGCQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LJMVVMDemo/Libs",

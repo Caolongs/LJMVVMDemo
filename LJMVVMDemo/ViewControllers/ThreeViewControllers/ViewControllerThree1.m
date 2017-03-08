@@ -214,6 +214,12 @@
     //cell.accessoryType = UITableViewCellAccessoryCheckmark;
     //cell.accessoryView
     //注意: cell系统默认的控件frame改变了并没有什么*用...
+    cell.selectedBackgroundView = [[UIView alloc] initWithFrame:cell.frame];
+    cell.selectedBackgroundView.backgroundColor = [UIColor redColor];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+
+    
     
     return cell;
 }
@@ -304,7 +310,7 @@
 #pragma mark - 选择和反选
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //NSLog(@"选择 sec=%ld row=%ld",indexPath.section,indexPath.row);
+    NSLog(@"选择 sec=%ld row=%ld",indexPath.section,indexPath.row);
     if(tableView.editing)
     {
         FriendModel *model = _dataArray[indexPath.section][indexPath.row];

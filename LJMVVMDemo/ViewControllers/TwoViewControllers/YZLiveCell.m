@@ -27,7 +27,7 @@
 {
     _live = live;
 
-    NSURL *imageUrl = [NSURL URLWithString:[NSString stringWithFormat:@"http://img.meelive.cn/%@",live.creator.portrait]];
+    NSURL *imageUrl = [NSURL URLWithString:[NSString stringWithFormat:@"%@",live.creator.portrait]];//http://img.meelive.cn/
     
     [self.headImageView sd_setImageWithURL:imageUrl placeholderImage:nil options:SDWebImageRefreshCached completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
     }];

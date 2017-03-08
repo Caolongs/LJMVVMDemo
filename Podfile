@@ -14,6 +14,7 @@ target 'LJMVVMDemo' do
   pod 'VTMagic'
   pod 'MJExtension'
   pod 'GPUImage', '~> 0.1.7'
+  pod 'UMengAnalytics'
   # Pods for LJMVVMDemo
 
 end
