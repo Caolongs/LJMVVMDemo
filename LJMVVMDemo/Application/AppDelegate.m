@@ -26,9 +26,9 @@
     // Override point for customization after application launch.
     
     
-    UMConfigInstance.appKey = @"5836d17a65b6d65e080004de";
-    UMConfigInstance.channelId = @"App Store";
-    [MobClick startWithConfigure:UMConfigInstance];//配置以上参数后调用此方法初始化SDK！
+//    UMConfigInstance.appKey = @"5836d17a65b6d65e080004de";
+//    UMConfigInstance.channelId = @"App Store";
+//    [MobClick startWithConfigure:UMConfigInstance];//配置以上参数后调用此方法初始化SDK！
     
     //检测拦截崩溃信息
     //InstallUncaughtExceptionHandler();

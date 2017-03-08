@@ -22,21 +22,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
-    
+    [self configSearchController];
     self.dataList=[NSMutableArray arrayWithCapacity:100];
     for (NSInteger i=0; i<100; i++) {
         [self.dataList addObject:[NSString stringWithFormat:@"%ld-FlyElephant",(long)i]];
     }
     
-    
-    
-   
+
 }
 - (void)configSearchController{
     _searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
     _searchController.searchResultsUpdater = self;
-    _searchController.dimsBackgroundDuringPresentation = NO;
-    _searchController.hidesNavigationBarDuringPresentation = NO;
+    _searchController.dimsBackgroundDuringPresentation = YES;
+    _searchController.hidesNavigationBarDuringPresentation = YES;
     _searchController.searchBar.frame = CGRectMake(self.searchController.searchBar.frame.origin.x, self.searchController.searchBar.frame.origin.y, self.searchController.searchBar.frame.size.width, 44.0);
     self.tableView.tableHeaderView = self.searchController.searchBar;
 }
@@ -67,6 +65,10 @@
 #pragma mark - updateSearchResultsForSearchController进行结果过滤:
 -(void)updateSearchResultsForSearchController:(UISearchController *)searchController {
     NSString *searchString = [self.searchController.searchBar text];
+    
+    if (self.searchController.searchBar.text.length==0) {
+        return;
+    }
     NSPredicate *preicate = [NSPredicate predicateWithFormat:@"SELF CONTAINS[c] %@", searchString];
     if (self.searchList!= nil) {
         [self.searchList removeAllObjects];
@@ -76,6 +78,11 @@
     //刷新表格
     [self.tableView reloadData];
 }
+
+//- (void)willPresentSearchController:(UISearchController *)searchController;
+//- (void)didPresentSearchController:(UISearchController *)searchController;
+//- (void)willDismissSearchController:(UISearchController *)searchController;
+//- (void)didDismissSearchController:(UISearchController *)searchController;
 
 
 
