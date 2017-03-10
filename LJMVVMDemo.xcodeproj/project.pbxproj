@@ -109,6 +109,11 @@
 		B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A03691C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld */; };
 		B02A03701C9AAEBD00721D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A036E1C9AAEBD00721D03 /* LaunchScreen.storyboard */; };
 		B02A03811C9AB24900721D03 /* NetRequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A03801C9AB24900721D03 /* NetRequestClass.m */; };
+		B04653ED1E72AFF200903F21 /* testEx.xlsx.zip in Resources */ = {isa = PBXBuildFile; fileRef = B04653EC1E72AFF200903F21 /* testEx.xlsx.zip */; };
+		B04653F31E72BD7E00903F21 /* ViewControllerThreeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B04653F21E72BD7E00903F21 /* ViewControllerThreeDataSource.m */; };
+		B06405B41E72AC0400BFECF1 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06405B21E72AC0400BFECF1 /* PDFViewController.m */; };
+		B06405B51E72AC0400BFECF1 /* PDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06405B31E72AC0400BFECF1 /* PDFViewController.xib */; };
+		B06405B71E72AD0E00BFECF1 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B06405B61E72AD0E00BFECF1 /* sample.pdf */; };
 		B0FA1D8C1DE9632000B9BC7A /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D8B1DE9632000B9BC7A /* NSDictionary+Safe.m */; };
 		B0FA1D8F1DE963A200B9BC7A /* SafeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D8E1DE963A200B9BC7A /* SafeTestViewController.m */; };
 		B0FA1D921DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D911DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m */; };
@@ -304,6 +309,13 @@
 		B02A03801C9AB24900721D03 /* NetRequestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestClass.m; sourceTree = "<group>"; };
 		B02A03821C9AB3E700721D03 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		B02A03831C9AB5BA00721D03 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B04653EC1E72AFF200903F21 /* testEx.xlsx.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = testEx.xlsx.zip; sourceTree = "<group>"; };
+		B04653F11E72BD7E00903F21 /* ViewControllerThreeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThreeDataSource.h; sourceTree = "<group>"; };
+		B04653F21E72BD7E00903F21 /* ViewControllerThreeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThreeDataSource.m; sourceTree = "<group>"; };
+		B06405B11E72AC0400BFECF1 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		B06405B21E72AC0400BFECF1 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		B06405B31E72AC0400BFECF1 /* PDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFViewController.xib; sourceTree = "<group>"; };
+		B06405B61E72AD0E00BFECF1 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
 		B0FA1D8A1DE9632000B9BC7A /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
 		B0FA1D8B1DE9632000B9BC7A /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
 		B0FA1D8D1DE963A200B9BC7A /* SafeTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeTestViewController.h; sourceTree = "<group>"; };
@@ -456,8 +468,11 @@
 		540EADB61D5836F50071CE2D /* ThreeViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B06405B01E72ABCD00BFECF1 /* PDF */,
 				540EADCB1D5837B80071CE2D /* ViewControllerThree.h */,
 				540EADCC1D5837B80071CE2D /* ViewControllerThree.m */,
+				B04653F11E72BD7E00903F21 /* ViewControllerThreeDataSource.h */,
+				B04653F21E72BD7E00903F21 /* ViewControllerThreeDataSource.m */,
 				54E46A831D59BD040009C2E2 /* ViewControllerThree1.h */,
 				54E46A841D59BD040009C2E2 /* ViewControllerThree1.m */,
 				5479B72D1D5A2BCC00287E39 /* ViewControllerThree1.xib */,
@@ -774,6 +789,8 @@
 		B02A037B1C9AAF6E00721D03 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B04653EC1E72AFF200903F21 /* testEx.xlsx.zip */,
+				B06405B61E72AD0E00BFECF1 /* sample.pdf */,
 				5436DB381D9ABE8C00A6954E /* account_bg@2x.png */,
 				54F0181B1D996375003962E6 /* mine_header.JPG */,
 				5424EAC01D5B050700F2DC7C /* head2.jpg */,
@@ -805,6 +822,16 @@
 				540EADA81D5835590071CE2D /* FourViewModels */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B06405B01E72ABCD00BFECF1 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				B06405B11E72AC0400BFECF1 /* PDFViewController.h */,
+				B06405B21E72AC0400BFECF1 /* PDFViewController.m */,
+				B06405B31E72AC0400BFECF1 /* PDFViewController.xib */,
+			);
+			path = PDF;
 			sourceTree = "<group>";
 		};
 		B0FBB3841C9BD57A0070413E /* ViewControllers */ = {
@@ -973,6 +1000,7 @@
 			files = (
 				5424EABF1D5B04F900F2DC7C /* head1.jpg in Resources */,
 				5497ADEA1D604F6300DABA4F /* tabbar_compose_button@2x.png in Resources */,
+				B06405B51E72AC0400BFECF1 /* PDFViewController.xib in Resources */,
 				B0FBB3A91C9BE45F0070413E /* tabbar_mine_normal@2x.png in Resources */,
 				5400FA371D9F6903008273D8 /* OneLiveDetailCell.xib in Resources */,
 				5436DB391D9ABE8C00A6954E /* account_bg@2x.png in Resources */,
@@ -983,7 +1011,9 @@
 				54EFFCE41DA51AF5002B2FBF /* LiveViewController.xib in Resources */,
 				54EFFD0F1DA550E5002B2FBF /* LJGPUImageViewController.xib in Resources */,
 				B0FBB3A71C9BE45F0070413E /* tabbar_like_normal@2x.png in Resources */,
+				B04653ED1E72AFF200903F21 /* testEx.xlsx.zip in Resources */,
 				54FA55C81C9D7F5500E5091D /* thumbnail_normal@2x.png in Resources */,
+				B06405B71E72AD0E00BFECF1 /* sample.pdf in Resources */,
 				B0FBB3A81C9BE45F0070413E /* tabbar_mine_hightlight@2x.png in Resources */,
 				54FB188F1D9D5E5C00A15DB4 /* OneLiveListCell.xib in Resources */,
 				B0FBB3A31C9BE45F0070413E /* tabbar_cookbook_normal@2x.png in Resources */,
@@ -1070,6 +1100,7 @@
 				5400FA2E1D9E6EBB008273D8 /* ZJModelTool.m in Sources */,
 				54DA712C1D636E0A00035BB7 /* UncaughtExceptionHandler.m in Sources */,
 				540EADC71D5837A10071CE2D /* ViewControllerFour.m in Sources */,
+				B06405B41E72AC0400BFECF1 /* PDFViewController.m in Sources */,
 				B0FBB3B01C9BE86E0070413E /* ViewModeClass.m in Sources */,
 				540EADCD1D5837B80071CE2D /* ViewControllerThree.m in Sources */,
 				54FB18841D9D3F2400A15DB4 /* LiveMovieViewController.m in Sources */,
@@ -1079,6 +1110,7 @@
 				5424EABD1D5B022000F2DC7C /* FriendModel.m in Sources */,
 				5400FA251D9E2D78008273D8 /* UINavigationBar+Status.m in Sources */,
 				5404986A1DA93F6A00485B94 /* WebViewWK_VC.m in Sources */,
+				B04653F31E72BD7E00903F21 /* ViewControllerThreeDataSource.m in Sources */,
 				54FA55CA1C9D7F5500E5091D /* XHTwitterPaggingViewer.m in Sources */,
 				540EADCA1D5837AE0071CE2D /* ViewControllerTwo.m in Sources */,
 				543EFDFA1D80738A000DD72D /* News.m in Sources */,

@@ -14,10 +14,14 @@
 #import "ContactsViewController.h"
 #import "QRCodeViewController.h"
 #import "SafeTestViewController.h"
+#import "PDFViewController.h"
+
+#import "ViewControllerThreeDataSource.h"
 
 @interface ViewControllerThree () <UITableViewDataSource,UITableViewDelegate>
 
 @property(nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) ViewControllerThreeDataSource *dataSource;
 @property(nonatomic, strong) NSArray *dataArray;
 
 
@@ -40,7 +44,7 @@
     //self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 60, 0);
     //NO时，内边距不会影响，修改contentInset是多少就是页面显示就是多少，不会和系统自动调整冲突
     
-    self.tableView.backgroundColor = [UIColor cyanColor];
+    self.tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     //UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 70)];
     //self.edgesForExtendedLayout = UIRectEdgeNone;//iOS7及以后的版本支持，self.view.frame.origin.y会下移64像素至navigationBar下方。
     
@@ -84,6 +88,10 @@
         SafeTestViewController *vc = [[SafeTestViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
         
+    }else if (indexPath.row == 5){
+        PDFViewController *vc = [[PDFViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
     }else{
         WebViewWK_VC *searchVC = [[WebViewWK_VC alloc] init];
         [self.navigationController pushViewController:searchVC animated:YES];
@@ -95,8 +103,7 @@
 - (NSArray *)dataArray{
     if (_dataArray==nil) {
 
-        _dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array"];
-        //,@"测试三",@"测试四",@"测试三",@"测试四",@"测试三",@"测试四",@"测试三",@"测试四",@"测试三",@"测试四",@"测试三",@"测试四",@"测试三",@"测试四"
+        _dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array",@"pdf预览"];
     }
     return _dataArray;
 }
@@ -111,7 +118,12 @@
     return _tableView;
 }
 
-
+- (ViewControllerThreeDataSource *)dataSource{
+    if (!_dataSource) {
+        _dataSource = [[ViewControllerThreeDataSource alloc] init];
+    }
+    return _dataSource;
+}
 
 
 - (void)didReceiveMemoryWarning {
