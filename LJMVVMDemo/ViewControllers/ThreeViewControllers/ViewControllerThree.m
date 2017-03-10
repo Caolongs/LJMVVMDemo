@@ -18,7 +18,7 @@
 
 #import "ViewControllerThreeDataSource.h"
 
-@interface ViewControllerThree () <UITableViewDataSource,UITableViewDelegate>
+@interface ViewControllerThree ()
 
 @property(nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) ViewControllerThreeDataSource *dataSource;
@@ -32,7 +32,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    [self.dataSource getItems];
     [self.view addSubview:self.tableView];
     self.view.backgroundColor = [UIColor purpleColor];
     //self.navigationController.navigationBar.translucent = NO;
@@ -112,8 +112,8 @@
         _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
         NSLog(@"---%@",NSStringFromCGRect(self.view.frame));
         NSLog(@"---%@",NSStringFromCGRect(_tableView.frame));
-        _tableView.dataSource = self;
-        _tableView.delegate = self;
+        _tableView.dataSource = self.dataSource;
+        _tableView.delegate = self.dataSource;
     }
     return _tableView;
 }

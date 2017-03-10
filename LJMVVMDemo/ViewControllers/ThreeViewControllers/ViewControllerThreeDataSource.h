@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class LJCellObject;
 @interface ViewControllerThreeDataSource : NSObject <UITableViewDataSource,UITableViewDelegate>
+
+- (NSMutableArray<LJCellObject *> *)getItems;
 
 @end
