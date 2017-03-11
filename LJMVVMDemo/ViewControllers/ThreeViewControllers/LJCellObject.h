@@ -21,4 +21,6 @@
 @property (nonatomic, assign) NSInteger cellHeight;
 @property (nonatomic, copy) NSString *title;
 
+
+
 @end

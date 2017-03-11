@@ -18,7 +18,9 @@
 
 #import "ViewControllerThreeDataSource.h"
 
-@interface ViewControllerThree ()
+#import "LJCellObject.h"
+
+@interface ViewControllerThree () <LJCellObjectDelegate>
 
 @property(nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) ViewControllerThreeDataSource *dataSource;
@@ -33,6 +35,8 @@
     [super viewDidLoad];
     
     [self.dataSource getItems];
+    self.dataSource.delegate = self;
+    
     [self.view addSubview:self.tableView];
     self.view.backgroundColor = [UIColor purpleColor];
     //self.navigationController.navigationBar.translucent = NO;
@@ -54,20 +58,20 @@
 }
 
 
-#pragma mark - UITableView
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 1;
-}
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return self.dataArray.count;
-}
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell = [UITableViewCell cellWithTableView:tableView];
-    cell.textLabel.text = self.dataArray[indexPath.row];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    return cell;
-}
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+//#pragma mark - UITableView
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+//    return 1;
+//}
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+//    return self.dataArray.count;
+//}
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+//    UITableViewCell *cell = [UITableViewCell cellWithTableView:tableView];
+//    cell.textLabel.text = self.dataArray[indexPath.row];
+//    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//    return cell;
+//}
+- (void)lj_tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
         
         //ViewControllerThree1 *oneVC = [[ViewControllerThree1 alloc] init];
@@ -121,6 +125,7 @@
 - (ViewControllerThreeDataSource *)dataSource{
     if (!_dataSource) {
         _dataSource = [[ViewControllerThreeDataSource alloc] init];
+        _dataSource.viewControllerDelegate = self;
     }
     return _dataSource;
 }

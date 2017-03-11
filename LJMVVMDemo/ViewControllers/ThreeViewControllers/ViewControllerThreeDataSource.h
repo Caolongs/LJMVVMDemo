@@ -7,10 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LJCellObject.h"
 
-@class LJCellObject;
+//@class LJCellObject;
 @interface ViewControllerThreeDataSource : NSObject <UITableViewDataSource,UITableViewDelegate>
 
+@property (nonatomic, weak) UIViewController *viewControllerDelegate;
+
 - (NSMutableArray<LJCellObject *> *)getItems;
+
+@property (nonatomic, weak) id<LJCellObjectDelegate> delegate;
 
 @end

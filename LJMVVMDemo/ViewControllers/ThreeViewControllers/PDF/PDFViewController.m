@@ -57,6 +57,31 @@
     return self;
 }
 
+//- (UIView*)documentInteractionControllerViewForPreview:(UIDocumentInteractionController*)controller
+//
+//{
+//    
+//    return self.view;
+//    
+//}
+//
+//- (CGRect)documentInteractionControllerRectForPreview:(UIDocumentInteractionController*)controller
+//
+//{
+//    
+//    return self.view.frame;
+//    
+//}
+//
+//// 点击预览窗口的“Done”(完成)按钮时调用
+//
+//- (void)documentInteractionControllerDidEndPreview:(UIDocumentInteractionController*)_controller
+//
+//{
+//    
+//    
+//}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -62,6 +62,11 @@
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    if (self.delegate && [self.delegate respondsToSelector:@selector(lj_tableView:didSelectRowAtIndexPath:)]) {
+        [self.delegate lj_tableView:tableView didSelectRowAtIndexPath:indexPath];
+    }
 //    if (indexPath.row == 0) {
     
 //        //ViewControllerThree1 *oneVC = [[ViewControllerThree1 alloc] init];
