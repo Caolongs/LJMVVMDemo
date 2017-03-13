@@ -104,6 +104,7 @@
 		54FB188E1D9D5E5C00A15DB4 /* OneLiveListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FB188C1D9D5E5C00A15DB4 /* OneLiveListCell.m */; };
 		54FB188F1D9D5E5C00A15DB4 /* OneLiveListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FB188D1D9D5E5C00A15DB4 /* OneLiveListCell.xib */; };
 		54FB18931D9D6E0C00A15DB4 /* LivePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FB18921D9D6E0C00A15DB4 /* LivePlayViewController.m */; };
+		B00232AA1E76954B00867BE9 /* UIViewController+PreviewPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232A91E76954B00867BE9 /* UIViewController+PreviewPDF.m */; };
 		B02A035F1C9AAEBD00721D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A035E1C9AAEBD00721D03 /* main.m */; };
 		B02A03681C9AAEBD00721D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A03661C9AAEBD00721D03 /* Main.storyboard */; };
 		B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A03691C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld */; };
@@ -300,6 +301,8 @@
 		54FB188D1D9D5E5C00A15DB4 /* OneLiveListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OneLiveListCell.xib; sourceTree = "<group>"; };
 		54FB18911D9D6E0C00A15DB4 /* LivePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivePlayViewController.h; sourceTree = "<group>"; };
 		54FB18921D9D6E0C00A15DB4 /* LivePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePlayViewController.m; sourceTree = "<group>"; };
+		B00232A81E76954B00867BE9 /* UIViewController+PreviewPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PreviewPDF.h"; sourceTree = "<group>"; };
+		B00232A91E76954B00867BE9 /* UIViewController+PreviewPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PreviewPDF.m"; sourceTree = "<group>"; };
 		B02A035A1C9AAEBD00721D03 /* LJMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035E1C9AAEBD00721D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B02A03671C9AAEBD00721D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -832,6 +835,8 @@
 		B06405B01E72ABCD00BFECF1 /* PDF */ = {
 			isa = PBXGroup;
 			children = (
+				B00232A81E76954B00867BE9 /* UIViewController+PreviewPDF.h */,
+				B00232A91E76954B00867BE9 /* UIViewController+PreviewPDF.m */,
 				B06405B11E72AC0400BFECF1 /* PDFViewController.h */,
 				B06405B21E72AC0400BFECF1 /* PDFViewController.m */,
 				B06405B31E72AC0400BFECF1 /* PDFViewController.xib */,
@@ -1168,6 +1173,7 @@
 				B0FA1D921DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m in Sources */,
 				B0FA1D9B1DE9894700B9BC7A /* NSNull+Safe.m in Sources */,
 				54FA562D1C9D8DB900E5091D /* LJHeaderSectionView.m in Sources */,
+				B00232AA1E76954B00867BE9 /* UIViewController+PreviewPDF.m in Sources */,
 				54873C0B1D2FA51C008BE5BD /* AFAppNetSessionManager.m in Sources */,
 				B0FA1D8C1DE9632000B9BC7A /* NSDictionary+Safe.m in Sources */,
 				540EADD61D5838CE0071CE2D /* AppDelegate.m in Sources */,
