@@ -8,11 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol LJCellObjectDelegate <NSObject>
-
-- (void)lj_tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
-
-@end
 
 
 @interface LJCellObject : NSObject

@@ -18,9 +18,8 @@
 
 #import "ViewControllerThreeDataSource.h"
 
-#import "LJCellObject.h"
 
-@interface ViewControllerThree () <LJCellObjectDelegate>
+@interface ViewControllerThree () <LJCellObjectProtocol>
 
 @property(nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) ViewControllerThreeDataSource *dataSource;
@@ -58,20 +57,7 @@
 }
 
 
-//#pragma mark - UITableView
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-//    return 1;
-//}
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-//    return self.dataArray.count;
-//}
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-//    UITableViewCell *cell = [UITableViewCell cellWithTableView:tableView];
-//    cell.textLabel.text = self.dataArray[indexPath.row];
-//    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-//    return cell;
-//}
-- (void)lj_tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+- (void)lj_tableView:(UITableView *)tableView didSelectRowType:(NSString *)type didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
         
         //ViewControllerThree1 *oneVC = [[ViewControllerThree1 alloc] init];
@@ -103,14 +89,14 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
-
-- (NSArray *)dataArray{
-    if (_dataArray==nil) {
-
-        _dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array",@"pdf预览"];
-    }
-    return _dataArray;
-}
+//
+//- (NSArray *)dataArray{
+//    if (_dataArray==nil) {
+//
+//        _dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array",@"pdf预览"];
+//    }
+//    return _dataArray;
+//}
 - (UITableView *)tableView{
     if (_tableView == nil) {
         _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
@@ -125,7 +111,7 @@
 - (ViewControllerThreeDataSource *)dataSource{
     if (!_dataSource) {
         _dataSource = [[ViewControllerThreeDataSource alloc] init];
-        _dataSource.viewControllerDelegate = self;
+        _dataSource.delegate = self;
     }
     return _dataSource;
 }

@@ -105,12 +105,12 @@
 		54FB188F1D9D5E5C00A15DB4 /* OneLiveListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FB188D1D9D5E5C00A15DB4 /* OneLiveListCell.xib */; };
 		54FB18931D9D6E0C00A15DB4 /* LivePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FB18921D9D6E0C00A15DB4 /* LivePlayViewController.m */; };
 		B00232AA1E76954B00867BE9 /* UIViewController+PreviewPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232A91E76954B00867BE9 /* UIViewController+PreviewPDF.m */; };
+		B00232AE1E76BB1000867BE9 /* LJTableViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232AD1E76BB1000867BE9 /* LJTableViewFactory.m */; };
 		B02A035F1C9AAEBD00721D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A035E1C9AAEBD00721D03 /* main.m */; };
 		B02A03681C9AAEBD00721D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A03661C9AAEBD00721D03 /* Main.storyboard */; };
 		B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A03691C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld */; };
 		B02A03701C9AAEBD00721D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A036E1C9AAEBD00721D03 /* LaunchScreen.storyboard */; };
 		B02A03811C9AB24900721D03 /* NetRequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A03801C9AB24900721D03 /* NetRequestClass.m */; };
-		B04653ED1E72AFF200903F21 /* testEx.xlsx.zip in Resources */ = {isa = PBXBuildFile; fileRef = B04653EC1E72AFF200903F21 /* testEx.xlsx.zip */; };
 		B04653F31E72BD7E00903F21 /* ViewControllerThreeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B04653F21E72BD7E00903F21 /* ViewControllerThreeDataSource.m */; };
 		B04653F61E72BF1B00903F21 /* LJCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B04653F51E72BF1B00903F21 /* LJCellObject.m */; };
 		B06405B41E72AC0400BFECF1 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06405B21E72AC0400BFECF1 /* PDFViewController.m */; };
@@ -303,6 +303,9 @@
 		54FB18921D9D6E0C00A15DB4 /* LivePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePlayViewController.m; sourceTree = "<group>"; };
 		B00232A81E76954B00867BE9 /* UIViewController+PreviewPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PreviewPDF.h"; sourceTree = "<group>"; };
 		B00232A91E76954B00867BE9 /* UIViewController+PreviewPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PreviewPDF.m"; sourceTree = "<group>"; };
+		B00232AB1E76B53B00867BE9 /* LJCellObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCellObjectProtocol.h; sourceTree = "<group>"; };
+		B00232AC1E76BB1000867BE9 /* LJTableViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTableViewFactory.h; sourceTree = "<group>"; };
+		B00232AD1E76BB1000867BE9 /* LJTableViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTableViewFactory.m; sourceTree = "<group>"; };
 		B02A035A1C9AAEBD00721D03 /* LJMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035E1C9AAEBD00721D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B02A03671C9AAEBD00721D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -313,7 +316,6 @@
 		B02A03801C9AB24900721D03 /* NetRequestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestClass.m; sourceTree = "<group>"; };
 		B02A03821C9AB3E700721D03 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		B02A03831C9AB5BA00721D03 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		B04653EC1E72AFF200903F21 /* testEx.xlsx.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = testEx.xlsx.zip; sourceTree = "<group>"; };
 		B04653F11E72BD7E00903F21 /* ViewControllerThreeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThreeDataSource.h; sourceTree = "<group>"; };
 		B04653F21E72BD7E00903F21 /* ViewControllerThreeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThreeDataSource.m; sourceTree = "<group>"; };
 		B04653F41E72BF1B00903F21 /* LJCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCellObject.h; sourceTree = "<group>"; };
@@ -476,6 +478,9 @@
 			children = (
 				B04653F41E72BF1B00903F21 /* LJCellObject.h */,
 				B04653F51E72BF1B00903F21 /* LJCellObject.m */,
+				B00232AB1E76B53B00867BE9 /* LJCellObjectProtocol.h */,
+				B00232AC1E76BB1000867BE9 /* LJTableViewFactory.h */,
+				B00232AD1E76BB1000867BE9 /* LJTableViewFactory.m */,
 				B06405B01E72ABCD00BFECF1 /* PDF */,
 				540EADCB1D5837B80071CE2D /* ViewControllerThree.h */,
 				540EADCC1D5837B80071CE2D /* ViewControllerThree.m */,
@@ -797,7 +802,6 @@
 		B02A037B1C9AAF6E00721D03 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B04653EC1E72AFF200903F21 /* testEx.xlsx.zip */,
 				B06405B61E72AD0E00BFECF1 /* sample.pdf */,
 				5436DB381D9ABE8C00A6954E /* account_bg@2x.png */,
 				54F0181B1D996375003962E6 /* mine_header.JPG */,
@@ -1021,7 +1025,6 @@
 				54EFFCE41DA51AF5002B2FBF /* LiveViewController.xib in Resources */,
 				54EFFD0F1DA550E5002B2FBF /* LJGPUImageViewController.xib in Resources */,
 				B0FBB3A71C9BE45F0070413E /* tabbar_like_normal@2x.png in Resources */,
-				B04653ED1E72AFF200903F21 /* testEx.xlsx.zip in Resources */,
 				54FA55C81C9D7F5500E5091D /* thumbnail_normal@2x.png in Resources */,
 				B06405B71E72AD0E00BFECF1 /* sample.pdf in Resources */,
 				B0FBB3A81C9BE45F0070413E /* tabbar_mine_hightlight@2x.png in Resources */,
@@ -1099,6 +1102,7 @@
 			files = (
 				54EFFCE31DA51AF5002B2FBF /* LiveViewController.m in Sources */,
 				54EFFCD81DA516D5002B2FBF /* YZLiveCell.m in Sources */,
+				B00232AE1E76BB1000867BE9 /* LJTableViewFactory.m in Sources */,
 				5400FA321D9E7082008273D8 /* LiveDetailModel.m in Sources */,
 				548D3ECC1D50F2FE0050F69C /* LJBaseModel.m in Sources */,
 				540EAD9F1D5830A30071CE2D /* NSString+LJ.m in Sources */,
