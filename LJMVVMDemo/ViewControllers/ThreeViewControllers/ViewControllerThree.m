@@ -67,18 +67,22 @@
         LJUISearchBarVC *searchVC = [[LJUISearchBarVC alloc] init];
         [self.navigationController pushViewController:searchVC animated:YES];
     }else if (indexPath.row == 2){
+        WebViewWK_VC *searchVC = [[WebViewWK_VC alloc] init];
+        [self.navigationController pushViewController:searchVC animated:YES];
+        
+    }else if (indexPath.row == 3){
         ContactsViewController *contactVC = [[ContactsViewController alloc] init];
         [self.navigationController pushViewController:contactVC animated:YES];
         
-    }else if (indexPath.row == 3){
+    }else if (indexPath.row == 4){
         QRCodeViewController *vc = [[QRCodeViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
         
-    }else if (indexPath.row == 4){
+    }else if (indexPath.row == 5){
         SafeTestViewController *vc = [[SafeTestViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
         
-    }else if (indexPath.row == 5){
+    }else if (indexPath.row == 6){
         PDFViewController *vc = [[PDFViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
         

@@ -22,7 +22,7 @@
 - (NSMutableArray<LJCellObject *> *)getItems{
     [self.itemArray removeAllObjects];
     
-    NSArray *dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array",@"pdf预览"];
+    NSArray *dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"javaScripCore",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array",@"pdf预览"];
     
     [dataArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         LJCellObject *cellObject1 = [[LJCellObject alloc] init];
