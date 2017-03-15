@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-
-
 @interface LJCellObject : NSObject
 
 @property (nonatomic, assign) Class cellClass;
-@property (nonatomic, assign) NSInteger cellHeight;
+@property (nonatomic, assign) CGFloat cellHeight;
+@property (nonatomic, strong) id objectModel;
+
 @property (nonatomic, copy) NSString *title;
 
 

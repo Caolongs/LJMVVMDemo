@@ -13,7 +13,7 @@
 @class LJCellObject;
 @interface ViewControllerThreeDataSource : LJTableViewFactory
 
-//@property (nonatomic, weak) UIViewController *viewControllerDelegate;
+
 
 
 

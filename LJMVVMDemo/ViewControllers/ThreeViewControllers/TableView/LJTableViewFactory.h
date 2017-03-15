@@ -13,6 +13,7 @@
 @interface LJTableViewFactory : NSObject <UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic, weak) id<LJCellObjectProtocol> delegate;
+//@property (nonatomic, weak) UIViewController<LJCellObjectProtocol> *viewControllerDelegate;
 
 @property (nonatomic, strong) NSMutableArray<LJCellObject *> *itemArray;
 - (NSMutableArray<LJCellObject *> *)getItems;

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "LJCellObjectProtocol.h"
 
-@interface ViewControllerThree : UIViewController
+@interface ViewControllerThree : UIViewController 
 
 
 @end

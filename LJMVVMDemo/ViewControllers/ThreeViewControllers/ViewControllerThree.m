@@ -57,7 +57,7 @@
 }
 
 
-- (void)lj_tableView:(UITableView *)tableView didSelectRowType:(NSString *)type didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+- (void)lj_tableView:(UITableView *)tableView didSelectRowObject:(id)obj didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
         
         //ViewControllerThree1 *oneVC = [[ViewControllerThree1 alloc] init];
@@ -108,6 +108,7 @@
         NSLog(@"---%@",NSStringFromCGRect(_tableView.frame));
         _tableView.dataSource = self.dataSource;
         _tableView.delegate = self.dataSource;
+       
     }
     return _tableView;
 }
@@ -116,9 +117,11 @@
     if (!_dataSource) {
         _dataSource = [[ViewControllerThreeDataSource alloc] init];
         _dataSource.delegate = self;
+//        _dataSource.viewControllerDelegate = self;
     }
     return _dataSource;
 }
+
 
 
 - (void)didReceiveMemoryWarning {

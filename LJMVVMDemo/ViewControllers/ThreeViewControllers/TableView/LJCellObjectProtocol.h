@@ -10,6 +10,9 @@
 
 @protocol LJCellObjectProtocol <NSObject>
 
-- (void)lj_tableView:(UITableView *)tableView didSelectRowType:(NSString *)type didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+@optional
+- (void)lj_tableView:(UITableView *)tableView didSelectRowObject:(id)obj didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+
+- (void)lj_cellActionObj:(id)obj type:(NSString *)type atIndexPath:(NSIndexPath *)indexPath;
 
 @end

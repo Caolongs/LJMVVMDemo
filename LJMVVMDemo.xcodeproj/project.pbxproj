@@ -105,17 +105,19 @@
 		54FB188F1D9D5E5C00A15DB4 /* OneLiveListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FB188D1D9D5E5C00A15DB4 /* OneLiveListCell.xib */; };
 		54FB18931D9D6E0C00A15DB4 /* LivePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FB18921D9D6E0C00A15DB4 /* LivePlayViewController.m */; };
 		B00232AA1E76954B00867BE9 /* UIViewController+PreviewPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232A91E76954B00867BE9 /* UIViewController+PreviewPDF.m */; };
-		B00232AE1E76BB1000867BE9 /* LJTableViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232AD1E76BB1000867BE9 /* LJTableViewFactory.m */; };
 		B00232B91E77C1EF00867BE9 /* LJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232B81E77C1EF00867BE9 /* LJLoginViewController.m */; };
 		B00232BB1E77C71400867BE9 /* launch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B00232BA1E77C71400867BE9 /* launch.mp4 */; };
 		B00232BE1E77DD7F00867BE9 /* LJMovieBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232BD1E77DD7F00867BE9 /* LJMovieBackViewController.m */; };
+		B00232C41E791E7A00867BE9 /* LJLoginVCFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232C31E791E7A00867BE9 /* LJLoginVCFactory.m */; };
+		B00232CD1E79372F00867BE9 /* LJCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232C71E79372F00867BE9 /* LJCellObject.m */; };
+		B00232CE1E79372F00867BE9 /* LJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232CA1E79372F00867BE9 /* LJTableViewCell.m */; };
+		B00232CF1E79372F00867BE9 /* LJTableViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232CC1E79372F00867BE9 /* LJTableViewFactory.m */; };
 		B02A035F1C9AAEBD00721D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A035E1C9AAEBD00721D03 /* main.m */; };
 		B02A03681C9AAEBD00721D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A03661C9AAEBD00721D03 /* Main.storyboard */; };
 		B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A03691C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld */; };
 		B02A03701C9AAEBD00721D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A036E1C9AAEBD00721D03 /* LaunchScreen.storyboard */; };
 		B02A03811C9AB24900721D03 /* NetRequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A03801C9AB24900721D03 /* NetRequestClass.m */; };
 		B04653F31E72BD7E00903F21 /* ViewControllerThreeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B04653F21E72BD7E00903F21 /* ViewControllerThreeDataSource.m */; };
-		B04653F61E72BF1B00903F21 /* LJCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B04653F51E72BF1B00903F21 /* LJCellObject.m */; };
 		B06405B41E72AC0400BFECF1 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06405B21E72AC0400BFECF1 /* PDFViewController.m */; };
 		B06405B51E72AC0400BFECF1 /* PDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06405B31E72AC0400BFECF1 /* PDFViewController.xib */; };
 		B06405B71E72AD0E00BFECF1 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B06405B61E72AD0E00BFECF1 /* sample.pdf */; };
@@ -306,14 +308,20 @@
 		54FB18921D9D6E0C00A15DB4 /* LivePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePlayViewController.m; sourceTree = "<group>"; };
 		B00232A81E76954B00867BE9 /* UIViewController+PreviewPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PreviewPDF.h"; sourceTree = "<group>"; };
 		B00232A91E76954B00867BE9 /* UIViewController+PreviewPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PreviewPDF.m"; sourceTree = "<group>"; };
-		B00232AB1E76B53B00867BE9 /* LJCellObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCellObjectProtocol.h; sourceTree = "<group>"; };
-		B00232AC1E76BB1000867BE9 /* LJTableViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTableViewFactory.h; sourceTree = "<group>"; };
-		B00232AD1E76BB1000867BE9 /* LJTableViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTableViewFactory.m; sourceTree = "<group>"; };
 		B00232B71E77C1EF00867BE9 /* LJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJLoginViewController.h; sourceTree = "<group>"; };
 		B00232B81E77C1EF00867BE9 /* LJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJLoginViewController.m; sourceTree = "<group>"; };
 		B00232BA1E77C71400867BE9 /* launch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = launch.mp4; sourceTree = "<group>"; };
 		B00232BC1E77DD7F00867BE9 /* LJMovieBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMovieBackViewController.h; sourceTree = "<group>"; };
 		B00232BD1E77DD7F00867BE9 /* LJMovieBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMovieBackViewController.m; sourceTree = "<group>"; };
+		B00232C21E791E7A00867BE9 /* LJLoginVCFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJLoginVCFactory.h; sourceTree = "<group>"; };
+		B00232C31E791E7A00867BE9 /* LJLoginVCFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJLoginVCFactory.m; sourceTree = "<group>"; };
+		B00232C61E79372F00867BE9 /* LJCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCellObject.h; sourceTree = "<group>"; };
+		B00232C71E79372F00867BE9 /* LJCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJCellObject.m; sourceTree = "<group>"; };
+		B00232C81E79372F00867BE9 /* LJCellObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCellObjectProtocol.h; sourceTree = "<group>"; };
+		B00232C91E79372F00867BE9 /* LJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTableViewCell.h; sourceTree = "<group>"; };
+		B00232CA1E79372F00867BE9 /* LJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTableViewCell.m; sourceTree = "<group>"; };
+		B00232CB1E79372F00867BE9 /* LJTableViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTableViewFactory.h; sourceTree = "<group>"; };
+		B00232CC1E79372F00867BE9 /* LJTableViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTableViewFactory.m; sourceTree = "<group>"; };
 		B02A035A1C9AAEBD00721D03 /* LJMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035E1C9AAEBD00721D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B02A03671C9AAEBD00721D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -326,8 +334,6 @@
 		B02A03831C9AB5BA00721D03 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B04653F11E72BD7E00903F21 /* ViewControllerThreeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThreeDataSource.h; sourceTree = "<group>"; };
 		B04653F21E72BD7E00903F21 /* ViewControllerThreeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThreeDataSource.m; sourceTree = "<group>"; };
-		B04653F41E72BF1B00903F21 /* LJCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCellObject.h; sourceTree = "<group>"; };
-		B04653F51E72BF1B00903F21 /* LJCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJCellObject.m; sourceTree = "<group>"; };
 		B06405B11E72AC0400BFECF1 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
 		B06405B21E72AC0400BFECF1 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
 		B06405B31E72AC0400BFECF1 /* PDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFViewController.xib; sourceTree = "<group>"; };
@@ -484,11 +490,7 @@
 		540EADB61D5836F50071CE2D /* ThreeViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				B04653F41E72BF1B00903F21 /* LJCellObject.h */,
-				B04653F51E72BF1B00903F21 /* LJCellObject.m */,
-				B00232AB1E76B53B00867BE9 /* LJCellObjectProtocol.h */,
-				B00232AC1E76BB1000867BE9 /* LJTableViewFactory.h */,
-				B00232AD1E76BB1000867BE9 /* LJTableViewFactory.m */,
+				B00232C51E79372F00867BE9 /* TableView */,
 				B06405B01E72ABCD00BFECF1 /* PDF */,
 				540EADCB1D5837B80071CE2D /* ViewControllerThree.h */,
 				540EADCC1D5837B80071CE2D /* ViewControllerThree.m */,
@@ -729,6 +731,8 @@
 				B00232BA1E77C71400867BE9 /* launch.mp4 */,
 				B00232B71E77C1EF00867BE9 /* LJLoginViewController.h */,
 				B00232B81E77C1EF00867BE9 /* LJLoginViewController.m */,
+				B00232C21E791E7A00867BE9 /* LJLoginVCFactory.h */,
+				B00232C31E791E7A00867BE9 /* LJLoginVCFactory.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -745,6 +749,20 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B00232C51E79372F00867BE9 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B00232C61E79372F00867BE9 /* LJCellObject.h */,
+				B00232C71E79372F00867BE9 /* LJCellObject.m */,
+				B00232C81E79372F00867BE9 /* LJCellObjectProtocol.h */,
+				B00232C91E79372F00867BE9 /* LJTableViewCell.h */,
+				B00232CA1E79372F00867BE9 /* LJTableViewCell.m */,
+				B00232CB1E79372F00867BE9 /* LJTableViewFactory.h */,
+				B00232CC1E79372F00867BE9 /* LJTableViewFactory.m */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		B02A03511C9AAEBD00721D03 = {
@@ -1148,7 +1166,6 @@
 			files = (
 				54EFFCE31DA51AF5002B2FBF /* LiveViewController.m in Sources */,
 				54EFFCD81DA516D5002B2FBF /* YZLiveCell.m in Sources */,
-				B00232AE1E76BB1000867BE9 /* LJTableViewFactory.m in Sources */,
 				5400FA321D9E7082008273D8 /* LiveDetailModel.m in Sources */,
 				548D3ECC1D50F2FE0050F69C /* LJBaseModel.m in Sources */,
 				540EAD9F1D5830A30071CE2D /* NSString+LJ.m in Sources */,
@@ -1159,6 +1176,7 @@
 				543EFDF41D805810000DD72D /* ViewModelOne3.m in Sources */,
 				5400FA2E1D9E6EBB008273D8 /* ZJModelTool.m in Sources */,
 				54DA712C1D636E0A00035BB7 /* UncaughtExceptionHandler.m in Sources */,
+				B00232C41E791E7A00867BE9 /* LJLoginVCFactory.m in Sources */,
 				540EADC71D5837A10071CE2D /* ViewControllerFour.m in Sources */,
 				B06405B41E72AC0400BFECF1 /* PDFViewController.m in Sources */,
 				B0FBB3B01C9BE86E0070413E /* ViewModeClass.m in Sources */,
@@ -1169,7 +1187,6 @@
 				54FB18931D9D6E0C00A15DB4 /* LivePlayViewController.m in Sources */,
 				5424EABD1D5B022000F2DC7C /* FriendModel.m in Sources */,
 				5400FA251D9E2D78008273D8 /* UINavigationBar+Status.m in Sources */,
-				B04653F61E72BF1B00903F21 /* LJCellObject.m in Sources */,
 				5404986A1DA93F6A00485B94 /* WebViewWK_VC.m in Sources */,
 				B04653F31E72BD7E00903F21 /* ViewControllerThreeDataSource.m in Sources */,
 				54FA55CA1C9D7F5500E5091D /* XHTwitterPaggingViewer.m in Sources */,
@@ -1183,6 +1200,7 @@
 				540EADBC1D5836F50071CE2D /* ViewControllerOne.m in Sources */,
 				541910BB1D36235000491D7F /* UITableViewCell+InitCell.m in Sources */,
 				54F018181D994B7F003962E6 /* OneAdsModel.m in Sources */,
+				B00232CF1E79372F00867BE9 /* LJTableViewFactory.m in Sources */,
 				540EADD21D58389F0071CE2D /* LJNavigationController.m in Sources */,
 				B02A03811C9AB24900721D03 /* NetRequestClass.m in Sources */,
 				549A78A21D48E1960076F545 /* UIColor+LJ.m in Sources */,
@@ -1213,6 +1231,7 @@
 				B0FBB3801C9BC9880070413E /* HYBNetworking.m in Sources */,
 				B0FA1D951DE97D7F00B9BC7A /* NSArray+Safe.m in Sources */,
 				5424EAB91D5B020400F2DC7C /* OneModel.m in Sources */,
+				B00232CE1E79372F00867BE9 /* LJTableViewCell.m in Sources */,
 				540EADC41D58375A0071CE2D /* OneContentView.m in Sources */,
 				5400FA211D9E105E008273D8 /* ViewModelOneLivePlayer.m in Sources */,
 				5400FA361D9F6903008273D8 /* OneLiveDetailCell.m in Sources */,
@@ -1229,6 +1248,7 @@
 				54873C0B1D2FA51C008BE5BD /* AFAppNetSessionManager.m in Sources */,
 				B0FA1D8C1DE9632000B9BC7A /* NSDictionary+Safe.m in Sources */,
 				540EADD61D5838CE0071CE2D /* AppDelegate.m in Sources */,
+				B00232CD1E79372F00867BE9 /* LJCellObject.m in Sources */,
 				54FB18871D9D41FA00A15DB4 /* LiveListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

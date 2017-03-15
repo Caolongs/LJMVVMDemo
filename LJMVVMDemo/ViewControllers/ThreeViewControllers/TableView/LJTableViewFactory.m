@@ -7,7 +7,7 @@
 //
 
 #import "LJTableViewFactory.h"
-
+#import "LJTableViewCell.h"
 
 @interface LJTableViewFactory ()
 
@@ -39,7 +39,7 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    UITableViewCell *cell;
+    LJTableViewCell *cell;
     LJCellObject *cellObj = self.itemArray[indexPath.row];
     
     [tableView registerClass:cellObj.cellClass forCellReuseIdentifier:NSStringFromClass(cellObj.class)];
@@ -47,12 +47,22 @@
     cell.textLabel.text = cellObj.title;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
+    cell.delegate = self.delegate;
+    [cell configCellObject:cellObj.objectModel];
+    
     return cell;
 }
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    LJCellObject *cellObj = self.itemArray[indexPath.row];
+    
+    return cellObj.cellHeight>0?:49;
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    if (self.delegate && [self.delegate respondsToSelector:@selector(lj_tableView:didSelectRowType:didSelectRowAtIndexPath:)]) {
-        [self.delegate lj_tableView:tableView didSelectRowType:@"" didSelectRowAtIndexPath:indexPath];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(lj_tableView:didSelectRowObject:didSelectRowAtIndexPath:)]) {
+        [self.delegate lj_tableView:tableView didSelectRowObject:self.itemArray[indexPath.row] didSelectRowAtIndexPath:indexPath];
     }
     
 }
