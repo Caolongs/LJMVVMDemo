@@ -7,6 +7,8 @@
 //
 
 #import "ViewControllerFour.h"
+#import "LJLoginViewController.h"
+
 #import "UITableViewCell+InitCell.h"
 #import "LJCommenTitle.h"
 
@@ -51,6 +53,7 @@
     imgV.backgroundColor = [UIColor groupTableViewBackgroundColor];
     imgV.frame= CGRectMake(0, -ImageHeight, self.view.frame.size.width, ImageHeight);
     imgV.contentMode = UIViewContentModeScaleAspectFill;
+    imgV.userInteractionEnabled = YES;
     [self.tableView addSubview:imgV];
     self.zoomImageView = imgV;
     
@@ -66,6 +69,16 @@
     iconView.clipsToBounds = YES;
     iconView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;//自动布局，自适应顶部
     [imgV addSubview:iconView];
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(login)];
+    [iconView addGestureRecognizer:tap];
+    iconView.userInteractionEnabled = YES;
+    
+}
+
+- (void)login{
+    LJLoginViewController *loginVc = [[LJLoginViewController alloc] init];
+    [self presentViewController:[[UINavigationController alloc] initWithRootViewController:loginVc] animated:YES completion:nil];
 }
 
 #pragma UITableViewDataSource
