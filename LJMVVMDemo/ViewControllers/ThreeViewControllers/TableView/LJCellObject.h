@@ -15,7 +15,7 @@
 @property (nonatomic, strong) id objectModel;
 
 @property (nonatomic, copy) NSString *title;
-
-
+@property (nonatomic, assign) UITableViewCellAccessoryType    accessoryType;
+@property (nonatomic, strong) UIColor *backColor;
 
 @end

@@ -8,11 +8,18 @@
 
 #import "LJLoginVCFactory.h"
 #import "LJTableViewCell.h"
+#import "LJSpaceCell.h"
 
 @implementation LJLoginVCFactory
 
 - (NSMutableArray<LJCellObject *> *)getItems{
     [self.itemArray removeAllObjects];
+    
+    LJCellObject *cellObjectspace = [[LJCellObject alloc] init];
+    cellObjectspace.cellClass = [LJSpaceCell class];
+    cellObjectspace.cellHeight = 100;
+//    cellObjectspace.backColor = [UIColor clearColor];
+    [self.itemArray addObject:cellObjectspace];
     
     NSArray *dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"javaScripCore",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array",@"pdf预览"];
     
@@ -21,6 +28,7 @@
         cellObject1.cellClass = [LJTableViewCell class];
         cellObject1.cellHeight = 50;
         cellObject1.title = dataArray[idx];
+        cellObject1.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         [self.itemArray addObject:cellObject1];
     }];
     

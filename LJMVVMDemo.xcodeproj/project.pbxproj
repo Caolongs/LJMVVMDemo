@@ -112,6 +112,7 @@
 		B00232CD1E79372F00867BE9 /* LJCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232C71E79372F00867BE9 /* LJCellObject.m */; };
 		B00232CE1E79372F00867BE9 /* LJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232CA1E79372F00867BE9 /* LJTableViewCell.m */; };
 		B00232CF1E79372F00867BE9 /* LJTableViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232CC1E79372F00867BE9 /* LJTableViewFactory.m */; };
+		B00232D21E7937A200867BE9 /* LJSpaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232D11E7937A200867BE9 /* LJSpaceCell.m */; };
 		B02A035F1C9AAEBD00721D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A035E1C9AAEBD00721D03 /* main.m */; };
 		B02A03681C9AAEBD00721D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A03661C9AAEBD00721D03 /* Main.storyboard */; };
 		B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A03691C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld */; };
@@ -322,6 +323,8 @@
 		B00232CA1E79372F00867BE9 /* LJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTableViewCell.m; sourceTree = "<group>"; };
 		B00232CB1E79372F00867BE9 /* LJTableViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTableViewFactory.h; sourceTree = "<group>"; };
 		B00232CC1E79372F00867BE9 /* LJTableViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTableViewFactory.m; sourceTree = "<group>"; };
+		B00232D01E7937A200867BE9 /* LJSpaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSpaceCell.h; sourceTree = "<group>"; };
+		B00232D11E7937A200867BE9 /* LJSpaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSpaceCell.m; sourceTree = "<group>"; };
 		B02A035A1C9AAEBD00721D03 /* LJMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035E1C9AAEBD00721D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B02A03671C9AAEBD00721D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -761,6 +764,8 @@
 				B00232CA1E79372F00867BE9 /* LJTableViewCell.m */,
 				B00232CB1E79372F00867BE9 /* LJTableViewFactory.h */,
 				B00232CC1E79372F00867BE9 /* LJTableViewFactory.m */,
+				B00232D01E7937A200867BE9 /* LJSpaceCell.h */,
+				B00232D11E7937A200867BE9 /* LJSpaceCell.m */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -1231,6 +1236,7 @@
 				B0FBB3801C9BC9880070413E /* HYBNetworking.m in Sources */,
 				B0FA1D951DE97D7F00B9BC7A /* NSArray+Safe.m in Sources */,
 				5424EAB91D5B020400F2DC7C /* OneModel.m in Sources */,
+				B00232D21E7937A200867BE9 /* LJSpaceCell.m in Sources */,
 				B00232CE1E79372F00867BE9 /* LJTableViewCell.m in Sources */,
 				540EADC41D58375A0071CE2D /* OneContentView.m in Sources */,
 				5400FA211D9E105E008273D8 /* ViewModelOneLivePlayer.m in Sources */,

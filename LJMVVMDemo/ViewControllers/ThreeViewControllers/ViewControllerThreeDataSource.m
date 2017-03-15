@@ -27,7 +27,7 @@
     [dataArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         LJCellObject *cellObject1 = [[LJCellObject alloc] init];
         cellObject1.cellClass = [LJTableViewCell class];
-        
+        cellObject1.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         cellObject1.title = dataArray[idx];
         [self.itemArray addObject:cellObject1];
     }];

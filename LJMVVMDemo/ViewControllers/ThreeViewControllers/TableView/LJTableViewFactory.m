@@ -44,8 +44,12 @@
     
     [tableView registerClass:cellObj.cellClass forCellReuseIdentifier:NSStringFromClass(cellObj.class)];
     cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(cellObj.class)];
+    
     cell.textLabel.text = cellObj.title;
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    cell.accessoryType = cellObj.accessoryType;
+    if (cellObj.backColor) {
+        cell.contentView.backgroundColor = cellObj.backColor;
+    }
     
     cell.delegate = self.delegate;
     [cell configCellObject:cellObj.objectModel];
@@ -56,7 +60,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     LJCellObject *cellObj = self.itemArray[indexPath.row];
     
-    return cellObj.cellHeight>0?:49;
+    return cellObj.cellHeight;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{

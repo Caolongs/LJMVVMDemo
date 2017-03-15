@@ -50,6 +50,7 @@
         _tableView.dataSource = self.factory;
         _tableView.delegate = self.factory;
         _tableView.tableFooterView = [[UIView alloc] init];
+        _tableView.backgroundView.backgroundColor = [UIColor clearColor];
     }
     return _tableView;
 }
