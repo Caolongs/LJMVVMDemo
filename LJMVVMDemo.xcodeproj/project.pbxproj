@@ -69,6 +69,9 @@
 		54A57A681DB0DD0E00D80FDE /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A57A671DB0DD0E00D80FDE /* IJKMediaFramework.framework */; };
 		54B283451D5DF77100CBD2EE /* LJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B283441D5DF77100CBD2EE /* LJWebViewController.m */; };
 		54DA712C1D636E0A00035BB7 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DA712B1D636E0A00035BB7 /* UncaughtExceptionHandler.m */; };
+		54E10CE31E798A060057401B /* IJKPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E10CE21E798A060057401B /* IJKPlayerView.m */; };
+		54E10CE61E798C260057401B /* AnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E10CE51E798C260057401B /* AnimationButton.m */; };
+		54E10CE91E798CD80057401B /* ZSLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E10CE81E798CD80057401B /* ZSLoading.m */; };
 		54E46A851D59BD040009C2E2 /* ViewControllerThree1.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E46A841D59BD040009C2E2 /* ViewControllerThree1.m */; };
 		54EFFCD81DA516D5002B2FBF /* YZLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EFFCD61DA516D5002B2FBF /* YZLiveCell.m */; };
 		54EFFCD91DA516D5002B2FBF /* YZLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54EFFCD71DA516D5002B2FBF /* YZLiveCell.xib */; };
@@ -255,6 +258,12 @@
 		54C7609D1D365550001B01C7 /* WZLSerializeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLSerializeKit.h; sourceTree = "<group>"; };
 		54DA712A1D636E0A00035BB7 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
 		54DA712B1D636E0A00035BB7 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		54E10CE11E798A060057401B /* IJKPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKPlayerView.h; sourceTree = "<group>"; };
+		54E10CE21E798A060057401B /* IJKPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKPlayerView.m; sourceTree = "<group>"; };
+		54E10CE41E798C260057401B /* AnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationButton.h; sourceTree = "<group>"; };
+		54E10CE51E798C260057401B /* AnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationButton.m; sourceTree = "<group>"; };
+		54E10CE71E798CD80057401B /* ZSLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSLoading.h; sourceTree = "<group>"; };
+		54E10CE81E798CD80057401B /* ZSLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSLoading.m; sourceTree = "<group>"; };
 		54E46A831D59BD040009C2E2 /* ViewControllerThree1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThree1.h; sourceTree = "<group>"; };
 		54E46A841D59BD040009C2E2 /* ViewControllerThree1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThree1.m; sourceTree = "<group>"; };
 		54EFFCD51DA516D5002B2FBF /* YZLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLiveCell.h; sourceTree = "<group>"; };
@@ -637,6 +646,19 @@
 			path = WZLSerializeKit;
 			sourceTree = "<group>";
 		};
+		54E10CE01E7989E20057401B /* ijkPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				54E10CE11E798A060057401B /* IJKPlayerView.h */,
+				54E10CE21E798A060057401B /* IJKPlayerView.m */,
+				54E10CE41E798C260057401B /* AnimationButton.h */,
+				54E10CE51E798C260057401B /* AnimationButton.m */,
+				54E10CE71E798CD80057401B /* ZSLoading.h */,
+				54E10CE81E798CD80057401B /* ZSLoading.m */,
+			);
+			path = ijkPlayer;
+			sourceTree = "<group>";
+		};
 		54EFFD0A1DA54C00002B2FBF /* MediViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -801,6 +823,7 @@
 				B02A03791C9AAF6E00721D03 /* Models */,
 				B02A037E1C9AAF6E00721D03 /* ViewModels */,
 				B0FBB3841C9BD57A0070413E /* ViewControllers */,
+				54E10CE01E7989E20057401B /* ijkPlayer */,
 				B00232B31E77C17000867BE9 /* Login */,
 				B02A037B1C9AAF6E00721D03 /* Resources */,
 				B0FBB3981C9BE2190070413E /* Application */,
@@ -1169,6 +1192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E10CE31E798A060057401B /* IJKPlayerView.m in Sources */,
 				54EFFCE31DA51AF5002B2FBF /* LiveViewController.m in Sources */,
 				54EFFCD81DA516D5002B2FBF /* YZLiveCell.m in Sources */,
 				5400FA321D9E7082008273D8 /* LiveDetailModel.m in Sources */,
@@ -1237,6 +1261,7 @@
 				B0FA1D951DE97D7F00B9BC7A /* NSArray+Safe.m in Sources */,
 				5424EAB91D5B020400F2DC7C /* OneModel.m in Sources */,
 				B00232D21E7937A200867BE9 /* LJSpaceCell.m in Sources */,
+				54E10CE61E798C260057401B /* AnimationButton.m in Sources */,
 				B00232CE1E79372F00867BE9 /* LJTableViewCell.m in Sources */,
 				540EADC41D58375A0071CE2D /* OneContentView.m in Sources */,
 				5400FA211D9E105E008273D8 /* ViewModelOneLivePlayer.m in Sources */,
@@ -1244,6 +1269,7 @@
 				543EFDF91D80738A000DD72D /* News+CoreDataProperties.m in Sources */,
 				54318E731D6BFCD000951B63 /* LJGuideViewController.m in Sources */,
 				540EADB81D5836F50071CE2D /* LJSwipeViewController.m in Sources */,
+				54E10CE91E798CD80057401B /* ZSLoading.m in Sources */,
 				54EFFCDF1DA516F5002B2FBF /* YZLiveItem.m in Sources */,
 				B0FBB3BB1C9BF77C0070413E /* NSObject+Model.m in Sources */,
 				B02A035F1C9AAEBD00721D03 /* main.m in Sources */,
