@@ -48,7 +48,7 @@
     cell.textLabel.text = cellObj.title;
     cell.accessoryType = cellObj.accessoryType;
     if (cellObj.backColor) {
-        cell.contentView.backgroundColor = cellObj.backColor;
+        cell.backgroundColor = cellObj.backColor;
     }
     
     cell.delegate = self.delegate;

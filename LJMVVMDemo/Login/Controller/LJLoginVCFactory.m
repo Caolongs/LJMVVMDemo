@@ -18,7 +18,7 @@
     LJCellObject *cellObjectspace = [[LJCellObject alloc] init];
     cellObjectspace.cellClass = [LJSpaceCell class];
     cellObjectspace.cellHeight = 100;
-//    cellObjectspace.backColor = [UIColor clearColor];
+    cellObjectspace.backColor = [UIColor clearColor];
     [self.itemArray addObject:cellObjectspace];
     
     NSArray *dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"javaScripCore",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array",@"pdf预览"];

@@ -13,8 +13,8 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         
-        self.contentView.backgroundColor = [UIColor clearColor];
-        
+//        self.contentView.backgroundColor = [UIColor clearColor];
+//        self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
