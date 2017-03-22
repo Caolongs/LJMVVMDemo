@@ -264,6 +264,9 @@
 		54E10CE51E798C260057401B /* AnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationButton.m; sourceTree = "<group>"; };
 		54E10CE71E798CD80057401B /* ZSLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSLoading.h; sourceTree = "<group>"; };
 		54E10CE81E798CD80057401B /* ZSLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSLoading.m; sourceTree = "<group>"; };
+		54E10CF51E82B67C0057401B /* configHub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = configHub.h; sourceTree = "<group>"; };
+		54E10CF61E82B7F80057401B /* ConfigDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigDevice.h; sourceTree = "<group>"; };
+		54E10CF71E82B9340057401B /* ConfigGCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigGCD.h; sourceTree = "<group>"; };
 		54E46A831D59BD040009C2E2 /* ViewControllerThree1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThree1.h; sourceTree = "<group>"; };
 		54E46A841D59BD040009C2E2 /* ViewControllerThree1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThree1.m; sourceTree = "<group>"; };
 		54EFFCD51DA516D5002B2FBF /* YZLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLiveCell.h; sourceTree = "<group>"; };
@@ -849,6 +852,9 @@
 				543EFDEA1D804BC1000DD72D /* LJGlobalUrl.m */,
 				5436DB3A1D9ACE4100A6954E /* LJCommenTitle.h */,
 				5436DB3B1D9ACE4100A6954E /* LJCommenTitle.m */,
+				54E10CF51E82B67C0057401B /* configHub.h */,
+				54E10CF61E82B7F80057401B /* ConfigDevice.h */,
+				54E10CF71E82B9340057401B /* ConfigGCD.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
