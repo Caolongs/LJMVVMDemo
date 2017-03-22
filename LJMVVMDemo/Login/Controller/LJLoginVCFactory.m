@@ -32,7 +32,7 @@
         [self.itemArray addObject:cellObject1];
     }];
     
-    
+    //test - 2 release
     return self.itemArray;
 }
 
