@@ -116,6 +116,7 @@
 		B00232CE1E79372F00867BE9 /* LJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232CA1E79372F00867BE9 /* LJTableViewCell.m */; };
 		B00232CF1E79372F00867BE9 /* LJTableViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232CC1E79372F00867BE9 /* LJTableViewFactory.m */; };
 		B00232D21E7937A200867BE9 /* LJSpaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232D11E7937A200867BE9 /* LJSpaceCell.m */; };
+		B002E8911E89112600B4F702 /* AVAudioSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B002E8901E89112600B4F702 /* AVAudioSessionManager.m */; };
 		B02A035F1C9AAEBD00721D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A035E1C9AAEBD00721D03 /* main.m */; };
 		B02A03681C9AAEBD00721D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A03661C9AAEBD00721D03 /* Main.storyboard */; };
 		B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A03691C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld */; };
@@ -337,6 +338,8 @@
 		B00232CC1E79372F00867BE9 /* LJTableViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTableViewFactory.m; sourceTree = "<group>"; };
 		B00232D01E7937A200867BE9 /* LJSpaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSpaceCell.h; sourceTree = "<group>"; };
 		B00232D11E7937A200867BE9 /* LJSpaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSpaceCell.m; sourceTree = "<group>"; };
+		B002E88F1E89112600B4F702 /* AVAudioSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioSessionManager.h; sourceTree = "<group>"; };
+		B002E8901E89112600B4F702 /* AVAudioSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioSessionManager.m; sourceTree = "<group>"; };
 		B02A035A1C9AAEBD00721D03 /* LJMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035E1C9AAEBD00721D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B02A03671C9AAEBD00721D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -916,6 +919,8 @@
 				546E45911C9C54100079EF38 /* LJString.h */,
 				546E45921C9C54100079EF38 /* LJString.m */,
 				54FA562E1C9D8F7D00E5091D /* LJMVVMDemo-Bridging-Header.h */,
+				B002E88F1E89112600B4F702 /* AVAudioSessionManager.h */,
+				B002E8901E89112600B4F702 /* AVAudioSessionManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -1226,6 +1231,7 @@
 				B04653F31E72BD7E00903F21 /* ViewControllerThreeDataSource.m in Sources */,
 				54FA55CA1C9D7F5500E5091D /* XHTwitterPaggingViewer.m in Sources */,
 				540EADCA1D5837AE0071CE2D /* ViewControllerTwo.m in Sources */,
+				B002E8911E89112600B4F702 /* AVAudioSessionManager.m in Sources */,
 				543EFDFA1D80738A000DD72D /* News.m in Sources */,
 				54FB188E1D9D5E5C00A15DB4 /* OneLiveListCell.m in Sources */,
 				543EFDE31D7FFE4B000DD72D /* LJNetWorking.m in Sources */,
