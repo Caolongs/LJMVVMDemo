@@ -117,6 +117,10 @@
 		B00232CF1E79372F00867BE9 /* LJTableViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232CC1E79372F00867BE9 /* LJTableViewFactory.m */; };
 		B00232D21E7937A200867BE9 /* LJSpaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232D11E7937A200867BE9 /* LJSpaceCell.m */; };
 		B002E8911E89112600B4F702 /* AVAudioSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B002E8901E89112600B4F702 /* AVAudioSessionManager.m */; };
+		B0189BF81E977C5B00F7661E /* LJMVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0189BF71E977C5B00F7661E /* LJMVVMDemoUITests.m */; };
+		B0189C061E977CB900F7661E /* LJMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0189C051E977CB900F7661E /* LJMVVMDemoTests.m */; };
+		B0189C0F1E97808100F7661E /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0189C0E1E97808100F7661E /* UserModel.m */; };
+		B0189C111E9780F700F7661E /* UserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0189C101E9780F700F7661E /* UserTests.m */; };
 		B02A035F1C9AAEBD00721D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A035E1C9AAEBD00721D03 /* main.m */; };
 		B02A03681C9AAEBD00721D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A03661C9AAEBD00721D03 /* Main.storyboard */; };
 		B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A03691C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld */; };
@@ -144,6 +148,23 @@
 		B0FBB3B01C9BE86E0070413E /* ViewModeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBB3AF1C9BE86E0070413E /* ViewModeClass.m */; };
 		B0FBB3BB1C9BF77C0070413E /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FBB3BA1C9BF77C0070413E /* NSObject+Model.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0189BFA1E977C5B00F7661E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02A03521C9AAEBD00721D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02A03591C9AAEBD00721D03;
+			remoteInfo = LJMVVMDemo;
+		};
+		B0189C081E977CB900F7661E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02A03521C9AAEBD00721D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02A03591C9AAEBD00721D03;
+			remoteInfo = LJMVVMDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3062B95D22789CA0B7FA73C6 /* Pods-LJMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJMVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJMVVMDemo/Pods-LJMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -340,6 +361,15 @@
 		B00232D11E7937A200867BE9 /* LJSpaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSpaceCell.m; sourceTree = "<group>"; };
 		B002E88F1E89112600B4F702 /* AVAudioSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioSessionManager.h; sourceTree = "<group>"; };
 		B002E8901E89112600B4F702 /* AVAudioSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioSessionManager.m; sourceTree = "<group>"; };
+		B0189BF51E977C5B00F7661E /* LJMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0189BF71E977C5B00F7661E /* LJMVVMDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJMVVMDemoUITests.m; sourceTree = "<group>"; };
+		B0189BF91E977C5B00F7661E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0189C031E977CB900F7661E /* LJMVVMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJMVVMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0189C051E977CB900F7661E /* LJMVVMDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJMVVMDemoTests.m; sourceTree = "<group>"; };
+		B0189C071E977CB900F7661E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0189C0D1E97808100F7661E /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		B0189C0E1E97808100F7661E /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		B0189C101E9780F700F7661E /* UserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTests.m; sourceTree = "<group>"; };
 		B02A035A1C9AAEBD00721D03 /* LJMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035E1C9AAEBD00721D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B02A03671C9AAEBD00721D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -386,6 +416,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B0189BF21E977C5B00F7661E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0189C001E977CB900F7661E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B02A03571C9AAEBD00721D03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -798,10 +842,31 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		B0189BF61E977C5B00F7661E /* LJMVVMDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0189BF71E977C5B00F7661E /* LJMVVMDemoUITests.m */,
+				B0189BF91E977C5B00F7661E /* Info.plist */,
+			);
+			path = LJMVVMDemoUITests;
+			sourceTree = "<group>";
+		};
+		B0189C041E977CB900F7661E /* LJMVVMDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0189C051E977CB900F7661E /* LJMVVMDemoTests.m */,
+				B0189C071E977CB900F7661E /* Info.plist */,
+				B0189C101E9780F700F7661E /* UserTests.m */,
+			);
+			path = LJMVVMDemoTests;
+			sourceTree = "<group>";
+		};
 		B02A03511C9AAEBD00721D03 = {
 			isa = PBXGroup;
 			children = (
 				B02A035C1C9AAEBD00721D03 /* LJMVVMDemo */,
+				B0189BF61E977C5B00F7661E /* LJMVVMDemoUITests */,
+				B0189C041E977CB900F7661E /* LJMVVMDemoTests */,
 				B02A035B1C9AAEBD00721D03 /* Products */,
 				7EC55B282A12A381E7B56CF1 /* Pods */,
 				E5924AFEC9792495E62842A5 /* Frameworks */,
@@ -812,6 +877,8 @@
 			isa = PBXGroup;
 			children = (
 				B02A035A1C9AAEBD00721D03 /* LJMVVMDemo.app */,
+				B0189BF51E977C5B00F7661E /* LJMVVMDemoUITests.xctest */,
+				B0189C031E977CB900F7661E /* LJMVVMDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -883,6 +950,8 @@
 				5424EAB81D5B020400F2DC7C /* TwoModels */,
 				5424EAB71D5B020400F2DC7C /* ThreeModels */,
 				5424EAB11D5B020400F2DC7C /* FoueModels */,
+				B0189C0D1E97808100F7661E /* UserModel.h */,
+				B0189C0E1E97808100F7661E /* UserModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1056,6 +1125,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B0189BF41E977C5B00F7661E /* LJMVVMDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0189BFE1E977C5B00F7661E /* Build configuration list for PBXNativeTarget "LJMVVMDemoUITests" */;
+			buildPhases = (
+				B0189BF11E977C5B00F7661E /* Sources */,
+				B0189BF21E977C5B00F7661E /* Frameworks */,
+				B0189BF31E977C5B00F7661E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0189BFB1E977C5B00F7661E /* PBXTargetDependency */,
+			);
+			name = LJMVVMDemoUITests;
+			productName = LJMVVMDemoUITests;
+			productReference = B0189BF51E977C5B00F7661E /* LJMVVMDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B0189C021E977CB900F7661E /* LJMVVMDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0189C0A1E977CB900F7661E /* Build configuration list for PBXNativeTarget "LJMVVMDemoTests" */;
+			buildPhases = (
+				B0189BFF1E977CB900F7661E /* Sources */,
+				B0189C001E977CB900F7661E /* Frameworks */,
+				B0189C011E977CB900F7661E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0189C091E977CB900F7661E /* PBXTargetDependency */,
+			);
+			name = LJMVVMDemoTests;
+			productName = LJMVVMDemoTests;
+			productReference = B0189C031E977CB900F7661E /* LJMVVMDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B02A03591C9AAEBD00721D03 /* LJMVVMDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B02A03741C9AAEBD00721D03 /* Build configuration list for PBXNativeTarget "LJMVVMDemo" */;
@@ -1085,6 +1190,16 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Caolongjian;
 				TargetAttributes = {
+					B0189BF41E977C5B00F7661E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B02A03591C9AAEBD00721D03;
+					};
+					B0189C021E977CB900F7661E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B02A03591C9AAEBD00721D03;
+					};
 					B02A03591C9AAEBD00721D03 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 9S959SBGCQ;
@@ -1105,11 +1220,27 @@
 			projectRoot = "";
 			targets = (
 				B02A03591C9AAEBD00721D03 /* LJMVVMDemo */,
+				B0189BF41E977C5B00F7661E /* LJMVVMDemoUITests */,
+				B0189C021E977CB900F7661E /* LJMVVMDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B0189BF31E977C5B00F7661E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0189C011E977CB900F7661E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B02A03581C9AAEBD00721D03 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1199,6 +1330,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B0189BF11E977C5B00F7661E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0189BF81E977C5B00F7661E /* LJMVVMDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0189BFF1E977CB900F7661E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0189C111E9780F700F7661E /* UserTests.m in Sources */,
+				B0189C061E977CB900F7661E /* LJMVVMDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B02A03561C9AAEBD00721D03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1213,6 +1361,7 @@
 				5476B6031D6C701300FA2E3E /* LJUpdateApp.m in Sources */,
 				546E45931C9C54100079EF38 /* LJString.m in Sources */,
 				540EADBB1D5836F50071CE2D /* OneViewController4.m in Sources */,
+				B0189C0F1E97808100F7661E /* UserModel.m in Sources */,
 				543EFDF41D805810000DD72D /* ViewModelOne3.m in Sources */,
 				5400FA2E1D9E6EBB008273D8 /* ZJModelTool.m in Sources */,
 				54DA712C1D636E0A00035BB7 /* UncaughtExceptionHandler.m in Sources */,
@@ -1299,6 +1448,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B0189BFB1E977C5B00F7661E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02A03591C9AAEBD00721D03 /* LJMVVMDemo */;
+			targetProxy = B0189BFA1E977C5B00F7661E /* PBXContainerItemProxy */;
+		};
+		B0189C091E977CB900F7661E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02A03591C9AAEBD00721D03 /* LJMVVMDemo */;
+			targetProxy = B0189C081E977CB900F7661E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		B02A03661C9AAEBD00721D03 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -1321,6 +1483,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B0189BFC1E977C5B00F7661E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = LJMVVMDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jiji.LJMVVMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJMVVMDemo;
+			};
+			name = Debug;
+		};
+		B0189BFD1E977C5B00F7661E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = LJMVVMDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jiji.LJMVVMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJMVVMDemo;
+			};
+			name = Release;
+		};
+		B0189C0B1E977CB900F7661E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = LJMVVMDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jiji.LJMVVMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJMVVMDemo.app/LJMVVMDemo";
+			};
+			name = Debug;
+		};
+		B0189C0C1E977CB900F7661E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = LJMVVMDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jiji.LJMVVMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJMVVMDemo.app/LJMVVMDemo";
+			};
+			name = Release;
+		};
 		B02A03721C9AAEBD00721D03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1457,6 +1677,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B0189BFE1E977C5B00F7661E /* Build configuration list for PBXNativeTarget "LJMVVMDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0189BFC1E977C5B00F7661E /* Debug */,
+				B0189BFD1E977C5B00F7661E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0189C0A1E977CB900F7661E /* Build configuration list for PBXNativeTarget "LJMVVMDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0189C0B1E977CB900F7661E /* Debug */,
+				B0189C0C1E977CB900F7661E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B02A03551C9AAEBD00721D03 /* Build configuration list for PBXProject "LJMVVMDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

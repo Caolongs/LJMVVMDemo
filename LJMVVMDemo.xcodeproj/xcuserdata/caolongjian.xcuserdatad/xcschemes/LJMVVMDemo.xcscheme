@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B0189BF41E977C5B00F7661E"
+               BuildableName = "LJMVVMDemoUITests.xctest"
+               BlueprintName = "LJMVVMDemoUITests"
+               ReferencedContainer = "container:LJMVVMDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B0189C021E977CB900F7661E"
+               BuildableName = "LJMVVMDemoTests.xctest"
+               BlueprintName = "LJMVVMDemoTests"
+               ReferencedContainer = "container:LJMVVMDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
