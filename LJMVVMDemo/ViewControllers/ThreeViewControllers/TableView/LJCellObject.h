@@ -12,6 +12,7 @@
 
 @property (nonatomic, assign) Class cellClass;
 @property (nonatomic, assign) CGFloat cellHeight;
+@property (nonatomic, copy) NSString *type;
 @property (nonatomic, strong) id objectModel;
 
 @property (nonatomic, copy) NSString *title;

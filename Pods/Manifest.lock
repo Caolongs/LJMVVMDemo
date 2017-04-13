@@ -15,6 +15,8 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - FBRetainCycleDetector (0.1.3)
+  - FreeStreamer (3.6.5):
+    - Reachability (~> 3.0)
   - GPUImage (0.1.7)
   - HYBLoopScrollView (3.0.0)
   - Masonry (1.0.1)
@@ -22,6 +24,7 @@ PODS:
   - MJRefresh (3.1.10)
   - MLeaksFinder (0.2.1):
     - FBRetainCycleDetector
+  - Reachability (3.2)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -33,6 +36,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - FreeStreamer
   - GPUImage (~> 0.1.7)
   - HYBLoopScrollView (~> 3.0.0)
   - Masonry
@@ -47,17 +51,19 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FBRetainCycleDetector: f0c7b290bf48ae77f6ae060843ce34ae341781eb
+  FreeStreamer: 81973ddd08677aa40f5edebc867664a7c0326da5
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   HYBLoopScrollView: ad1dc5709e05ce77e0b1eb4b4fdd0fe55fc8cab2
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MJExtension: f9ae6ddc0f1c482c3c9af750280ccebd14381958
   MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
   MLeaksFinder: 0850e2f2abc7227adc4d4e2d1992b431264eb4d5
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   UMengAnalytics: 0bde5737767dfc18afb03a4cd6ba9d57bb2ad10d
   VTMagic: c69c1dd7481e0f3f4c0b2a6f27803dde55455c96
 
-PODFILE CHECKSUM: 7abae08b7e7221892db03b18e6693cd85e63f8b6
+PODFILE CHECKSUM: 3dd1e008bfab8bce29cd81b0b058bf7e9be0d3d0
 
 COCOAPODS: 1.1.1

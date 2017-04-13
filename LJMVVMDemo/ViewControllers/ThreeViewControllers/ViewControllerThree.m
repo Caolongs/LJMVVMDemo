@@ -15,6 +15,7 @@
 #import "QRCodeViewController.h"
 #import "SafeTestViewController.h"
 #import "PDFViewController.h"
+#import "LJNetAudioPlayerVC.h"
 
 #import "ViewControllerThreeDataSource.h"
 
@@ -58,49 +59,44 @@
 
 
 - (void)lj_tableView:(UITableView *)tableView didSelectRowObject:(id)obj didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.row == 0) {
+    LJCellObject *cellObj = obj;
+    NSArray *typeArray = @[@"searcSh",@"",@"",@"",@"",@"safe-dictionary-array",@"pdf",@"NetAudioPlayer"];
+    if ([cellObj.type isEqualToString:@"searcSh"]) {
         
         //ViewControllerThree1 *oneVC = [[ViewControllerThree1 alloc] init];
         ViewControllerThree1 *oneVC = [[ViewControllerThree1 alloc] initWithNibName:@"ViewControllerThree1" bundle:nil];
         [self.navigationController pushViewController:oneVC animated:YES];
-    }else if (indexPath.row == 1){
+    }else if ([cellObj.type isEqualToString:@"UISerachViewController"]){
         LJUISearchBarVC *searchVC = [[LJUISearchBarVC alloc] init];
         [self.navigationController pushViewController:searchVC animated:YES];
-    }else if (indexPath.row == 2){
+    }else if ([cellObj.type isEqualToString:@"javaScripCore"]){
         WebViewWK_VC *searchVC = [[WebViewWK_VC alloc] init];
         [self.navigationController pushViewController:searchVC animated:YES];
         
-    }else if (indexPath.row == 3){
+    }else if ([cellObj.type isEqualToString:@"ContactsDemo"]){
         ContactsViewController *contactVC = [[ContactsViewController alloc] init];
         [self.navigationController pushViewController:contactVC animated:YES];
         
-    }else if (indexPath.row == 4){
+    }else if ([cellObj.type isEqualToString:@"QR"]){
         QRCodeViewController *vc = [[QRCodeViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
         
-    }else if (indexPath.row == 5){
+    }else if ([cellObj.type isEqualToString:@"safe-dictionary-array"]){
         SafeTestViewController *vc = [[SafeTestViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
         
-    }else if (indexPath.row == 6){
+    }else if ([cellObj.type isEqualToString:@"pdf"]){
         PDFViewController *vc = [[PDFViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
         
-    }else{
-        WebViewWK_VC *searchVC = [[WebViewWK_VC alloc] init];
-        [self.navigationController pushViewController:searchVC animated:YES];
+    }else if([cellObj.type isEqualToString:@"NetAudioPlayer"]){
+        LJNetAudioPlayerVC *pVC = [[LJNetAudioPlayerVC alloc] init];
+        [self.navigationController pushViewController:pVC animated:YES];
     }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
-//
-//- (NSArray *)dataArray{
-//    if (_dataArray==nil) {
-//
-//        _dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array",@"pdf预览"];
-//    }
-//    return _dataArray;
-//}
+
 - (UITableView *)tableView{
     if (_tableView == nil) {
         _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];

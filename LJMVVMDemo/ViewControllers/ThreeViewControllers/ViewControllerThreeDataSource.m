@@ -22,13 +22,16 @@
 - (NSMutableArray<LJCellObject *> *)getItems{
     [self.itemArray removeAllObjects];
     
-    NSArray *dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"javaScripCore",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array",@"pdf预览"];
+    NSArray *dataArray = @[@"UITableView-searcSh",@"UISerachViewController",@"javaScripCore",@"ContactsDemo",@"二维码",@"4.safe-dictionary-array",@"pdf预览",@"LJNetAudioPlayer"];
+    NSArray *typeArray = @[@"searcSh",@"UISerachViewController",@"javaScripCore",@"ContactsDemo",@"QR",@"safe-dictionary-array",@"pdf",@"NetAudioPlayer"];
     
     [dataArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         LJCellObject *cellObject1 = [[LJCellObject alloc] init];
         cellObject1.cellClass = [LJTableViewCell class];
         cellObject1.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         cellObject1.title = dataArray[idx];
+        cellObject1.cellHeight = 49;
+        cellObject1.type = typeArray[idx];
         [self.itemArray addObject:cellObject1];
     }];
     

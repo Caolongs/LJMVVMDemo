@@ -16,6 +16,8 @@ target 'LJMVVMDemo' do
   pod 'GPUImage', '~> 0.1.7'
   pod 'UMengAnalytics'
   pod 'MLeaksFinder'
+  pod 'FreeStreamer'
+  
   # Pods for LJMVVMDemo
 
 end

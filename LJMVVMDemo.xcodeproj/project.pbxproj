@@ -121,6 +121,9 @@
 		B0189C061E977CB900F7661E /* LJMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0189C051E977CB900F7661E /* LJMVVMDemoTests.m */; };
 		B0189C0F1E97808100F7661E /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0189C0E1E97808100F7661E /* UserModel.m */; };
 		B0189C111E9780F700F7661E /* UserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0189C101E9780F700F7661E /* UserTests.m */; };
+		B028969B1E9F4E1E00F0C7AD /* LJNetAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B028969A1E9F4E1E00F0C7AD /* LJNetAudioPlayer.m */; };
+		B028969E1E9F62DD00F0C7AD /* NSTimer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B028969D1E9F62DD00F0C7AD /* NSTimer+Category.m */; };
+		B02896A51E9F66B800F0C7AD /* LJNetAudioPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B02896A41E9F66B800F0C7AD /* LJNetAudioPlayerVC.m */; };
 		B02A035F1C9AAEBD00721D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A035E1C9AAEBD00721D03 /* main.m */; };
 		B02A03681C9AAEBD00721D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A03661C9AAEBD00721D03 /* Main.storyboard */; };
 		B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A03691C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld */; };
@@ -370,6 +373,12 @@
 		B0189C0D1E97808100F7661E /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		B0189C0E1E97808100F7661E /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		B0189C101E9780F700F7661E /* UserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTests.m; sourceTree = "<group>"; };
+		B02896991E9F4E1E00F0C7AD /* LJNetAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNetAudioPlayer.h; sourceTree = "<group>"; };
+		B028969A1E9F4E1E00F0C7AD /* LJNetAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNetAudioPlayer.m; sourceTree = "<group>"; };
+		B028969C1E9F62DD00F0C7AD /* NSTimer+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Category.h"; sourceTree = "<group>"; };
+		B028969D1E9F62DD00F0C7AD /* NSTimer+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Category.m"; sourceTree = "<group>"; };
+		B02896A31E9F66B800F0C7AD /* LJNetAudioPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNetAudioPlayerVC.h; sourceTree = "<group>"; };
+		B02896A41E9F66B800F0C7AD /* LJNetAudioPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNetAudioPlayerVC.m; sourceTree = "<group>"; };
 		B02A035A1C9AAEBD00721D03 /* LJMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02A035E1C9AAEBD00721D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B02A03671C9AAEBD00721D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -552,6 +561,7 @@
 		540EADB61D5836F50071CE2D /* ThreeViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B028969F1E9F661C00F0C7AD /* NetAudioPlay */,
 				B00232C51E79372F00867BE9 /* TableView */,
 				B06405B01E72ABCD00BFECF1 /* PDF */,
 				540EADCB1D5837B80071CE2D /* ViewControllerThree.h */,
@@ -861,6 +871,15 @@
 			path = LJMVVMDemoTests;
 			sourceTree = "<group>";
 		};
+		B028969F1E9F661C00F0C7AD /* NetAudioPlay */ = {
+			isa = PBXGroup;
+			children = (
+				B02896A31E9F66B800F0C7AD /* LJNetAudioPlayerVC.h */,
+				B02896A41E9F66B800F0C7AD /* LJNetAudioPlayerVC.m */,
+			);
+			path = NetAudioPlay;
+			sourceTree = "<group>";
+		};
 		B02A03511C9AAEBD00721D03 = {
 			isa = PBXGroup;
 			children = (
@@ -990,6 +1009,8 @@
 				54FA562E1C9D8F7D00E5091D /* LJMVVMDemo-Bridging-Header.h */,
 				B002E88F1E89112600B4F702 /* AVAudioSessionManager.h */,
 				B002E8901E89112600B4F702 /* AVAudioSessionManager.m */,
+				B02896991E9F4E1E00F0C7AD /* LJNetAudioPlayer.h */,
+				B028969A1E9F4E1E00F0C7AD /* LJNetAudioPlayer.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -1075,6 +1096,8 @@
 		B0FBB3B81C9BF7380070413E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B028969C1E9F62DD00F0C7AD /* NSTimer+Category.h */,
+				B028969D1E9F62DD00F0C7AD /* NSTimer+Category.m */,
 				5400FA221D9E2D78008273D8 /* UINavigationBar+Status */,
 				B0FBB3B91C9BF77C0070413E /* NSObject+Model.h */,
 				B0FBB3BA1C9BF77C0070413E /* NSObject+Model.m */,
@@ -1375,6 +1398,7 @@
 				542AE6EB1DDB5D9200E3CAC2 /* ContactsViewController.m in Sources */,
 				54FB18931D9D6E0C00A15DB4 /* LivePlayViewController.m in Sources */,
 				5424EABD1D5B022000F2DC7C /* FriendModel.m in Sources */,
+				B02896A51E9F66B800F0C7AD /* LJNetAudioPlayerVC.m in Sources */,
 				5400FA251D9E2D78008273D8 /* UINavigationBar+Status.m in Sources */,
 				5404986A1DA93F6A00485B94 /* WebViewWK_VC.m in Sources */,
 				B04653F31E72BD7E00903F21 /* ViewControllerThreeDataSource.m in Sources */,
@@ -1428,6 +1452,7 @@
 				5400FA211D9E105E008273D8 /* ViewModelOneLivePlayer.m in Sources */,
 				5400FA361D9F6903008273D8 /* OneLiveDetailCell.m in Sources */,
 				543EFDF91D80738A000DD72D /* News+CoreDataProperties.m in Sources */,
+				B028969B1E9F4E1E00F0C7AD /* LJNetAudioPlayer.m in Sources */,
 				54318E731D6BFCD000951B63 /* LJGuideViewController.m in Sources */,
 				540EADB81D5836F50071CE2D /* LJSwipeViewController.m in Sources */,
 				54E10CE91E798CD80057401B /* ZSLoading.m in Sources */,
@@ -1436,6 +1461,7 @@
 				B02A035F1C9AAEBD00721D03 /* main.m in Sources */,
 				B0FA1D921DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m in Sources */,
 				B0FA1D9B1DE9894700B9BC7A /* NSNull+Safe.m in Sources */,
+				B028969E1E9F62DD00F0C7AD /* NSTimer+Category.m in Sources */,
 				54FA562D1C9D8DB900E5091D /* LJHeaderSectionView.m in Sources */,
 				B00232AA1E76954B00867BE9 /* UIViewController+PreviewPDF.m in Sources */,
 				54873C0B1D2FA51C008BE5BD /* AFAppNetSessionManager.m in Sources */,
@@ -1684,6 +1710,7 @@
 				B0189BFD1E977C5B00F7661E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0189C0A1E977CB900F7661E /* Build configuration list for PBXNativeTarget "LJMVVMDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -1692,6 +1719,7 @@
 				B0189C0C1E977CB900F7661E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B02A03551C9AAEBD00721D03 /* Build configuration list for PBXProject "LJMVVMDemo" */ = {
 			isa = XCConfigurationList;
