@@ -56,7 +56,6 @@ typedef void (^NetWorkBlock)(BOOL netConnetState);
 #define IS_iOS8 [[UIDevice currentDevice].systemVersion floatValue] >= 8.0f
 #define IS_iOS6 [[UIDevice currentDevice].systemVersion floatValue] >= 6.0f
 
-
 //NavBar高度
 #define NavigationBar_HEIGHT 44
 
