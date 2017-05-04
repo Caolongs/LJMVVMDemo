@@ -133,6 +133,7 @@
 		B06405B41E72AC0400BFECF1 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06405B21E72AC0400BFECF1 /* PDFViewController.m */; };
 		B06405B51E72AC0400BFECF1 /* PDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06405B31E72AC0400BFECF1 /* PDFViewController.xib */; };
 		B06405B71E72AD0E00BFECF1 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B06405B61E72AD0E00BFECF1 /* sample.pdf */; };
+		B0B4CB501EB1D9F100ECDEF8 /* UIButton+Vertical.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B4CB4F1EB1D9F100ECDEF8 /* UIButton+Vertical.m */; };
 		B0FA1D8C1DE9632000B9BC7A /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D8B1DE9632000B9BC7A /* NSDictionary+Safe.m */; };
 		B0FA1D8F1DE963A200B9BC7A /* SafeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D8E1DE963A200B9BC7A /* SafeTestViewController.m */; };
 		B0FA1D921DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FA1D911DE97BDD00B9BC7A /* NSMutableDictionary+Safe.m */; };
@@ -395,6 +396,8 @@
 		B06405B21E72AC0400BFECF1 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
 		B06405B31E72AC0400BFECF1 /* PDFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDFViewController.xib; sourceTree = "<group>"; };
 		B06405B61E72AD0E00BFECF1 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
+		B0B4CB4E1EB1D9F100ECDEF8 /* UIButton+Vertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Vertical.h"; sourceTree = "<group>"; };
+		B0B4CB4F1EB1D9F100ECDEF8 /* UIButton+Vertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Vertical.m"; sourceTree = "<group>"; };
 		B0FA1D8A1DE9632000B9BC7A /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
 		B0FA1D8B1DE9632000B9BC7A /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
 		B0FA1D8D1DE963A200B9BC7A /* SafeTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeTestViewController.h; sourceTree = "<group>"; };
@@ -1040,6 +1043,15 @@
 			path = PDF;
 			sourceTree = "<group>";
 		};
+		B0B4CB4D1EB1D9F100ECDEF8 /* UIButton+Category */ = {
+			isa = PBXGroup;
+			children = (
+				B0B4CB4E1EB1D9F100ECDEF8 /* UIButton+Vertical.h */,
+				B0B4CB4F1EB1D9F100ECDEF8 /* UIButton+Vertical.m */,
+			);
+			path = "UIButton+Category";
+			sourceTree = "<group>";
+		};
 		B0FBB3841C9BD57A0070413E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1096,6 +1108,7 @@
 		B0FBB3B81C9BF7380070413E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B0B4CB4D1EB1D9F100ECDEF8 /* UIButton+Category */,
 				B028969C1E9F62DD00F0C7AD /* NSTimer+Category.h */,
 				B028969D1E9F62DD00F0C7AD /* NSTimer+Category.m */,
 				5400FA221D9E2D78008273D8 /* UINavigationBar+Status */,
@@ -1451,6 +1464,7 @@
 				540EADC41D58375A0071CE2D /* OneContentView.m in Sources */,
 				5400FA211D9E105E008273D8 /* ViewModelOneLivePlayer.m in Sources */,
 				5400FA361D9F6903008273D8 /* OneLiveDetailCell.m in Sources */,
+				B0B4CB501EB1D9F100ECDEF8 /* UIButton+Vertical.m in Sources */,
 				543EFDF91D80738A000DD72D /* News+CoreDataProperties.m in Sources */,
 				B028969B1E9F4E1E00F0C7AD /* LJNetAudioPlayer.m in Sources */,
 				54318E731D6BFCD000951B63 /* LJGuideViewController.m in Sources */,
