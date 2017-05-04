@@ -129,6 +129,7 @@
 		B02A036B1C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B02A03691C9AAEBD00721D03 /* LJMVVMDemo.xcdatamodeld */; };
 		B02A03701C9AAEBD00721D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02A036E1C9AAEBD00721D03 /* LaunchScreen.storyboard */; };
 		B02A03811C9AB24900721D03 /* NetRequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B02A03801C9AB24900721D03 /* NetRequestClass.m */; };
+		B03A65091EBB144F00BC7C55 /* UITextField+zh_limit.m in Sources */ = {isa = PBXBuildFile; fileRef = B03A65081EBB144F00BC7C55 /* UITextField+zh_limit.m */; };
 		B04653F31E72BD7E00903F21 /* ViewControllerThreeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B04653F21E72BD7E00903F21 /* ViewControllerThreeDataSource.m */; };
 		B06405B41E72AC0400BFECF1 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06405B21E72AC0400BFECF1 /* PDFViewController.m */; };
 		B06405B51E72AC0400BFECF1 /* PDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06405B31E72AC0400BFECF1 /* PDFViewController.xib */; };
@@ -390,6 +391,8 @@
 		B02A03801C9AB24900721D03 /* NetRequestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestClass.m; sourceTree = "<group>"; };
 		B02A03821C9AB3E700721D03 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		B02A03831C9AB5BA00721D03 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B03A65071EBB144F00BC7C55 /* UITextField+zh_limit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+zh_limit.h"; sourceTree = "<group>"; };
+		B03A65081EBB144F00BC7C55 /* UITextField+zh_limit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+zh_limit.m"; sourceTree = "<group>"; };
 		B04653F11E72BD7E00903F21 /* ViewControllerThreeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThreeDataSource.h; sourceTree = "<group>"; };
 		B04653F21E72BD7E00903F21 /* ViewControllerThreeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThreeDataSource.m; sourceTree = "<group>"; };
 		B06405B11E72AC0400BFECF1 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
@@ -1134,6 +1137,8 @@
 				B0FA1D971DE97E9300B9BC7A /* NSMutableArray+Safe.m */,
 				B0FA1D991DE9894700B9BC7A /* NSNull+Safe.h */,
 				B0FA1D9A1DE9894700B9BC7A /* NSNull+Safe.m */,
+				B03A65071EBB144F00BC7C55 /* UITextField+zh_limit.h */,
+				B03A65081EBB144F00BC7C55 /* UITextField+zh_limit.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1407,6 +1412,7 @@
 				B0FBB3B01C9BE86E0070413E /* ViewModeClass.m in Sources */,
 				540EADCD1D5837B80071CE2D /* ViewControllerThree.m in Sources */,
 				54FB18841D9D3F2400A15DB4 /* LiveMovieViewController.m in Sources */,
+				B03A65091EBB144F00BC7C55 /* UITextField+zh_limit.m in Sources */,
 				54B283451D5DF77100CBD2EE /* LJWebViewController.m in Sources */,
 				542AE6EB1DDB5D9200E3CAC2 /* ContactsViewController.m in Sources */,
 				54FB18931D9D6E0C00A15DB4 /* LivePlayViewController.m in Sources */,
