@@ -117,6 +117,7 @@
 		B00232CF1E79372F00867BE9 /* LJTableViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232CC1E79372F00867BE9 /* LJTableViewFactory.m */; };
 		B00232D21E7937A200867BE9 /* LJSpaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B00232D11E7937A200867BE9 /* LJSpaceCell.m */; };
 		B002E8911E89112600B4F702 /* AVAudioSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B002E8901E89112600B4F702 /* AVAudioSessionManager.m */; };
+		B01497E91EC3181B00B78C2F /* ClearCachesTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B01497E81EC3181B00B78C2F /* ClearCachesTool.m */; };
 		B0189BF81E977C5B00F7661E /* LJMVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0189BF71E977C5B00F7661E /* LJMVVMDemoUITests.m */; };
 		B0189C061E977CB900F7661E /* LJMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0189C051E977CB900F7661E /* LJMVVMDemoTests.m */; };
 		B0189C0F1E97808100F7661E /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0189C0E1E97808100F7661E /* UserModel.m */; };
@@ -366,6 +367,8 @@
 		B00232D11E7937A200867BE9 /* LJSpaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSpaceCell.m; sourceTree = "<group>"; };
 		B002E88F1E89112600B4F702 /* AVAudioSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAudioSessionManager.h; sourceTree = "<group>"; };
 		B002E8901E89112600B4F702 /* AVAudioSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVAudioSessionManager.m; sourceTree = "<group>"; };
+		B01497E71EC3181B00B78C2F /* ClearCachesTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearCachesTool.h; sourceTree = "<group>"; };
+		B01497E81EC3181B00B78C2F /* ClearCachesTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearCachesTool.m; sourceTree = "<group>"; };
 		B0189BF51E977C5B00F7661E /* LJMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0189BF71E977C5B00F7661E /* LJMVVMDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJMVVMDemoUITests.m; sourceTree = "<group>"; };
 		B0189BF91E977C5B00F7661E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1017,6 +1020,8 @@
 				B002E8901E89112600B4F702 /* AVAudioSessionManager.m */,
 				B02896991E9F4E1E00F0C7AD /* LJNetAudioPlayer.h */,
 				B028969A1E9F4E1E00F0C7AD /* LJNetAudioPlayer.m */,
+				B01497E71EC3181B00B78C2F /* ClearCachesTool.h */,
+				B01497E81EC3181B00B78C2F /* ClearCachesTool.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -1466,6 +1471,7 @@
 				5424EAB91D5B020400F2DC7C /* OneModel.m in Sources */,
 				B00232D21E7937A200867BE9 /* LJSpaceCell.m in Sources */,
 				54E10CE61E798C260057401B /* AnimationButton.m in Sources */,
+				B01497E91EC3181B00B78C2F /* ClearCachesTool.m in Sources */,
 				B00232CE1E79372F00867BE9 /* LJTableViewCell.m in Sources */,
 				540EADC41D58375A0071CE2D /* OneContentView.m in Sources */,
 				5400FA211D9E105E008273D8 /* ViewModelOneLivePlayer.m in Sources */,
