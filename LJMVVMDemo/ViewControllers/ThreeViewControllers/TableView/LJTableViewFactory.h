@@ -16,6 +16,6 @@
 //@property (nonatomic, weak) UIViewController<LJCellObjectProtocol> *viewControllerDelegate;
 
 @property (nonatomic, strong) NSMutableArray<LJCellObject *> *itemArray;
-- (NSMutableArray<LJCellObject *> *)getItems;
+- (NSMutableArray<LJCellObject *> *)getItems; 
 
 @end
